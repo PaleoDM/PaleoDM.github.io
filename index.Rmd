@@ -66,57 +66,56 @@
 
 
 
-<!-- Navigation Boxes Section -->
+<!-- Navigation Header Section -->
+---
 <section style="display: flex; flex-direction: column; align-items: center; max-width: 1200px; margin: 40px auto; text-align: center;">
-
-  <!-- Header -->
-  <h2 style="font-size: 2em; font-weight: bold; margin-bottom: 10px;">WHAT WE DO</h2>
-
-  <!-- Introductory Text -->
-  <p style="font-size: 1.2em; max-width: 800px; color: black; margin-bottom: 30px; text-align: left;">
-    Looking to collaborate on a research project? Need help turning data into insights? 
-    Find out how we can work together:
-  </p>
-
-  <!-- Navigation Boxes -->
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; width: 100%;">
-
-    <!-- Box 1 -->
-    <div style="flex: 1 1 300px; margin: 10px; padding: 20px; background-color: #f7f7f7; min-width: 250px;">
-      <h3>Box 1</h3>
-      <p>Short description of what this link leads to.</p>
-      <button onclick="location.href='#';">Go There</button>
-    </div>
-
-    <!-- Box 2 -->
-    <div style="flex: 1 1 300px; margin: 10px; padding: 20px; background-color: #f7f7f7; min-width: 250px;">
-      <h3>Box 2</h3>
-      <p>Short description of what this link leads to.</p>
-      <button onclick="location.href='#';">Go There</button>
-    </div>
-
-    <!-- Box 3 -->
-    <div style="flex: 1 1 300px; margin: 10px; padding: 20px; background-color: #f7f7f7; min-width: 250px;">
-      <h3>Box 3</h3>
-      <p>Short description of what this link leads to.</p>
-      <button onclick="location.href='#';">Go There</button>
-    </div>
-
-    <!-- Box 4 -->
-    <div style="flex: 1 1 300px; margin: 10px; padding: 20px; background-color: #f7f7f7; min-width: 250px;">
-      <h3>Box 4</h3>
-      <p>Short description of what this link leads to.</p>
-      <button onclick="location.href='#';">Go There</button>
-    </div>
-
-  </div>
+  <h2 style="font-size: 2em; font-weight: bold; margin-bottom: 10px; color: #001731;">WHAT WE DO</h2>
+    <p style="font-size: 1.2em; max-width: 800px; color: black; margin-bottom: 30px; text-align: left;">
+        Looking to collaborate on a research project? Need help turning data into insights? 
+        Find out how we can work together:
+    </p>
 </section>
 
+
+
+<!-- Navigation Grid Section -->
+---
+::: {style="max-width: 800px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 20px;"}
+
+::: {style="text-align: center;"}
+<img src="./website-icons_Research.jpg" alt="Research Icon" style="width: 100%; max-width: 300px; height: auto; border-radius: 10px;">
+<h3 style="margin-top: 10px; font-size: 1.2em; color: #001731; font-weight: bold;">ACADEMIC RESEARCH</h3>
+<button style="margin-top: 10px; padding: 8px 16px; cursor: pointer; background-color: #0070F0; color: white; border: none; border-radius: 25px; font-size: 1em;">LEARN MORE</button>
+:::
+
+::: {style="text-align: center;"}
+<img src="./website-icons_Portfolio.jpg" alt="Portfolio Icon" style="width: 100%; max-width: 300px; height: auto; border-radius: 10px;">
+<h3 style="margin-top: 10px; font-size: 1.2em;color: #001731; font-weight: bold;">DATA PORTFOLIO</h3>
+<button style="margin-top: 10px; padding: 8px 16px; cursor: pointer; background-color: #0070F0; color: white; border: none; border-radius: 25px; font-size: 1em;">LEARN MORE</button>
+:::
+
+::: {style="text-align: center;"}
+<img src="./website-icons_storytelling.jpg" alt="Portfolio Icon" style="width: 100%; max-width: 300px; height: auto; border-radius: 10px;">
+<h3 style="margin-top: 10px; font-size: 1.2em;color: #001731; font-weight: bold;">STORYTELLING</h3>
+<button style="margin-top: 10px; padding: 8px 16px; cursor: pointer; background-color: #0070F0; color: white; border: none; border-radius: 25px; font-size: 1em;">LEARN MORE</button>
+:::
+
+::: {style="text-align: center;"}
+<img src="./website-icons_Portfolio.jpg" alt="Portfolio Icon" style="width: 100%; max-width: 300px; height: auto; border-radius: 10px;">
+<h3 style="margin-top: 10px; font-size: 1.2em;color: #001731; font-weight: bold;">MARTIAL ARTS</h3>
+<button style="margin-top: 10px; padding: 8px 16px; cursor: pointer; background-color: #0070F0; color: white; border: none; border-radius: 25px; font-size: 1em;">LEARN MORE</button>
+:::
+
+:::
 
 
 
 <!-- FOOTER -->
 ---
-<footer style="text-align: center; padding: 20px; background-color: #f2f2f2; margin-top: 40px;">
-  <p>&copy; 2025 My Website. All Rights Reserved.</p>
+<footer style="background-color: #001731; color: white; text-align: center; padding: 20px; display: flex; justify-content: space-around; align-items: center;">
+  <a href="#" style="color: white; text-decoration: none;">PROJECT INQUIRIES</a>
+  <a href="#" style="color: white; text-decoration: none;">GOOGLE SCHOLAR</a>
+  <a href="#" style="color: white; text-decoration: none;">REQUEST REFERENCE</a>
 </footer>
+
+
