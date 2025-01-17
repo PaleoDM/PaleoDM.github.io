@@ -1,12 +1,7 @@
-<!-- Opening Setup -->
 ---
   output:
   html_document:
-    # Optional: pick a built-in theme, or remove "theme" entirely
-    theme: yeti
-    # If you create a separate CSS file (e.g., styles.css), link it here:
-    # css: "styles.css"
-
+---
 
 
 <!-- HEADER with Name -->
