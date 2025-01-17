@@ -1,14 +1,16 @@
+<!-- Opening Setup -->
 ---
-# we won't use a title because we'll out it in the header instead
   output:
   html_document:
     # Optional: pick a built-in theme, or remove "theme" entirely
     theme: yeti
     # If you create a separate CSS file (e.g., styles.css), link it here:
     # css: "styles.css"
----
+
+
 
 <!-- HEADER with Name -->
+---
 <header style="text-align: center; padding: 20px; background-color: #001731; color: white;">
   <h1 style="margin: 0;">DR. CARLOS MAURICIO PEREDO</h1>
 </header>
@@ -21,65 +23,100 @@
 </nav>
 
 
+
 <!-- Banner Section -->
-<!-- The background image is set via "background:url(...)" inline here -->
+---
 <div style="
-  background: url('PATH/TO/YOUR-BANNER-IMAGE.jpg') no-repeat center center; 
+  background: url('Seattle Boat 2.jpg') no-repeat right top;
   background-size: cover;
-  min-height: 300px; 
-  display: flex; 
-  align-items: center; 
-  justify-content: center;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;   /* Align text at bottom */
+  align-items: flex-start;     /* Align text at left */
+  padding-left: 50px;          /* Space from left edge */
+  padding-bottom: 30px;        /* Space from bottom edge */
+  color: white;
 ">
-  <div style="background-color: rgba(255,255,255,0.8); padding: 30px;">
-    <h2>Descriptive Text Goes Here</h2>
-    <p>A short welcome, tagline, or call to action.</p>
-  </div>
+  <!-- First line (largest & bold) -->
+  <h1 style="margin: 0; font-size: 2.5em; font-weight: 700;">
+    Dr. Carlos Mauricio Peredo
+  </h1>
+  
+  <!-- Next two lines (smaller & lighter weight) -->
+  <h2 style="margin: 0; font-size: 1.5em; font-weight: 400;">
+    Senior Research Scientist
+  </h2>
+  <h2 style="margin: 0; font-size: 1.5em; font-weight: 400;">
+    Western Governors University
+  </h2>
 </div>
 
+
+
 <!-- Quick Informative Text Section -->
-<section style="padding: 40px; text-align: center;">
-  <p style="max-width: 600px; margin: 0 auto;">
-    This is a brief intro or summary of what the website is about. You might 
+---
+<section style="padding: 40px;">
+  <p style="font-size: 1.2em; max-width: 800px; color: black; margin: 0 auto; text-align: left;">
+    Lorem ipsum summary section that I need to write. This is a brief intro or summary of what the website is about. You might 
     highlight key points here, or mention the main reasons someone should 
     keep scrolling.
   </p>
 </section>
 
-<!-- Boxes / Navigation Buttons to Key Pages -->
-<section style="display: flex; flex-wrap: wrap; justify-content: center; max-width: 1200px; margin: 0 auto;">
 
-  <!-- Box 1 -->
-  <div style="flex: 1 1 300px; margin: 10px; padding: 20px; background-color: #f7f7f7; min-width: 250px;">
-    <h3>Box 1</h3>
-    <p>Short description of what this link leads to.</p>
-    <button onclick="location.href='#';">Go There</button>
+
+<!-- Navigation Boxes Section -->
+<section style="display: flex; flex-direction: column; align-items: center; max-width: 1200px; margin: 40px auto; text-align: center;">
+
+  <!-- Header -->
+  <h2 style="font-size: 2em; font-weight: bold; margin-bottom: 10px;">WHAT WE DO</h2>
+
+  <!-- Introductory Text -->
+  <p style="font-size: 1.2em; max-width: 800px; color: black; margin-bottom: 30px; text-align: left;">
+    Looking to collaborate on a research project? Need help turning data into insights? 
+    Find out how we can work together:
+  </p>
+
+  <!-- Navigation Boxes -->
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; width: 100%;">
+
+    <!-- Box 1 -->
+    <div style="flex: 1 1 300px; margin: 10px; padding: 20px; background-color: #f7f7f7; min-width: 250px;">
+      <h3>Box 1</h3>
+      <p>Short description of what this link leads to.</p>
+      <button onclick="location.href='#';">Go There</button>
+    </div>
+
+    <!-- Box 2 -->
+    <div style="flex: 1 1 300px; margin: 10px; padding: 20px; background-color: #f7f7f7; min-width: 250px;">
+      <h3>Box 2</h3>
+      <p>Short description of what this link leads to.</p>
+      <button onclick="location.href='#';">Go There</button>
+    </div>
+
+    <!-- Box 3 -->
+    <div style="flex: 1 1 300px; margin: 10px; padding: 20px; background-color: #f7f7f7; min-width: 250px;">
+      <h3>Box 3</h3>
+      <p>Short description of what this link leads to.</p>
+      <button onclick="location.href='#';">Go There</button>
+    </div>
+
+    <!-- Box 4 -->
+    <div style="flex: 1 1 300px; margin: 10px; padding: 20px; background-color: #f7f7f7; min-width: 250px;">
+      <h3>Box 4</h3>
+      <p>Short description of what this link leads to.</p>
+      <button onclick="location.href='#';">Go There</button>
+    </div>
+
   </div>
-
-  <!-- Box 2 -->
-  <div style="flex: 1 1 300px; margin: 10px; padding: 20px; background-color: #f7f7f7; min-width: 250px;">
-    <h3>Box 2</h3>
-    <p>Short description of what this link leads to.</p>
-    <button onclick="location.href='#';">Go There</button>
-  </div>
-
-  <!-- Box 3 -->
-  <div style="flex: 1 1 300px; margin: 10px; padding: 20px; background-color: #f7f7f7; min-width: 250px;">
-    <h3>Box 3</h3>
-    <p>Short description of what this link leads to.</p>
-    <button onclick="location.href='#';">Go There</button>
-  </div>
-
-  <!-- Box 4 -->
-  <div style="flex: 1 1 300px; margin: 10px; padding: 20px; background-color: #f7f7f7; min-width: 250px;">
-    <h3>Box 4</h3>
-    <p>Short description of what this link leads to.</p>
-    <button onclick="location.href='#';">Go There</button>
-  </div>
-
 </section>
 
+
+
+
 <!-- FOOTER -->
+---
 <footer style="text-align: center; padding: 20px; background-color: #f2f2f2; margin-top: 40px;">
   <p>&copy; 2025 My Website. All Rights Reserved.</p>
 </footer>

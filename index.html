@@ -352,7 +352,14 @@ display: none;
 </div>
 
 
-<!-- HEADER with Name -->
+<div id="section" class="section level2">
+<h2><!-- Opening Setup --></h2>
+<p>output: html_document: # Optional: pick a built-in theme, or remove
+“theme” entirely theme: yeti # If you create a separate CSS file (e.g.,
+styles.css), link it here: # css: “styles.css”</p>
+</div>
+<div id="section-1" class="section level2">
+<h2><!-- HEADER with Name --></h2>
 <header style="text-align: center; padding: 20px; background-color: #001731; color: white;">
 <h1 style="margin: 0;">
 DR. CARLOS MAURICIO PEREDO
@@ -365,62 +372,94 @@ DR. CARLOS MAURICIO PEREDO
 <a href="#MARTIALARTS" style="margin: 0 15px; color: white;">MARTIAL
 ARTS</a>
 </nav>
-<!-- Banner Section -->
-<!-- The background image is set via "background:url(...)" inline here -->
+</div>
+<div id="section-2" class="section level2">
+<h2><!-- Banner Section --></h2>
 <div style="
-  background: url(&#39;PATH/TO/YOUR-BANNER-IMAGE.jpg&#39;) no-repeat center center; 
+  background: url(&#39;Seattle Boat 2.jpg&#39;) no-repeat right top;
   background-size: cover;
-  min-height: 300px; 
-  display: flex; 
-  align-items: center; 
-  justify-content: center;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;   /* Align text at bottom */
+  align-items: flex-start;     /* Align text at left */
+  padding-left: 50px;          /* Space from left edge */
+  padding-bottom: 30px;        /* Space from bottom edge */
+  color: white;
 ">
-<div style="background-color: rgba(255,255,255,0.8); padding: 30px;">
-<pre><code>&lt;h2&gt;Descriptive Text Goes Here&lt;/h2&gt;
-&lt;p&gt;A short welcome, tagline, or call to action.&lt;/p&gt;</code></pre>
+<!-- First line (largest & bold) -->
+<h1 style="margin: 0; font-size: 2.5em; font-weight: 700;">
+Dr. Carlos Mauricio Peredo
+</h1>
+<!-- Next two lines (smaller & lighter weight) -->
+<h2 style="margin: 0; font-size: 1.5em; font-weight: 400;">
+Senior Research Scientist
+</h2>
+<h2 style="margin: 0; font-size: 1.5em; font-weight: 400;">
+Western Governors University
+</h2>
 </div>
 </div>
-<!-- Quick Informative Text Section -->
-<section style="padding: 40px; text-align: center;">
-<p style="max-width: 600px; margin: 0 auto;">
-This is a brief intro or summary of what the website is about. You might
-highlight key points here, or mention the main reasons someone should
-keep scrolling.
+<div id="section-3" class="section level2">
+<h2><!-- Quick Informative Text Section --></h2>
+<section style="padding: 40px;">
+<p style="font-size: 1.2em; max-width: 800px; color: black; margin: 0 auto; text-align: left;">
+Lorem ipsum summary section that I need to write. This is a brief intro
+or summary of what the website is about. You might highlight key points
+here, or mention the main reasons someone should keep scrolling.
 </p>
 </section>
-<!-- Boxes / Navigation Buttons to Key Pages -->
-<section style="display: flex; flex-wrap: wrap; justify-content: center; max-width: 1200px; margin: 0 auto;">
-<!-- Box 1 -->
-<div style="flex: 1 1 300px; margin: 10px; padding: 20px; background-color: #f7f7f7; min-width: 250px;">
-<pre><code>&lt;h3&gt;Box 1&lt;/h3&gt;
-&lt;p&gt;Short description of what this link leads to.&lt;/p&gt;
-&lt;button onclick=&quot;location.href=&#39;#&#39;;&quot;&gt;Go There&lt;/button&gt;</code></pre>
-</div>
-<!-- Box 2 -->
-<div style="flex: 1 1 300px; margin: 10px; padding: 20px; background-color: #f7f7f7; min-width: 250px;">
-<pre><code>&lt;h3&gt;Box 2&lt;/h3&gt;
-&lt;p&gt;Short description of what this link leads to.&lt;/p&gt;
-&lt;button onclick=&quot;location.href=&#39;#&#39;;&quot;&gt;Go There&lt;/button&gt;</code></pre>
-</div>
-<!-- Box 3 -->
-<div style="flex: 1 1 300px; margin: 10px; padding: 20px; background-color: #f7f7f7; min-width: 250px;">
-<pre><code>&lt;h3&gt;Box 3&lt;/h3&gt;
-&lt;p&gt;Short description of what this link leads to.&lt;/p&gt;
-&lt;button onclick=&quot;location.href=&#39;#&#39;;&quot;&gt;Go There&lt;/button&gt;</code></pre>
-</div>
-<!-- Box 4 -->
-<div style="flex: 1 1 300px; margin: 10px; padding: 20px; background-color: #f7f7f7; min-width: 250px;">
-<pre><code>&lt;h3&gt;Box 4&lt;/h3&gt;
-&lt;p&gt;Short description of what this link leads to.&lt;/p&gt;
-&lt;button onclick=&quot;location.href=&#39;#&#39;;&quot;&gt;Go There&lt;/button&gt;</code></pre>
+<!-- Navigation Boxes Section -->
+<section style="display: flex; flex-direction: column; align-items: center; max-width: 1200px; margin: 40px auto; text-align: center;">
+<!-- Header -->
+<h2 style="font-size: 2em; font-weight: bold; margin-bottom: 10px;">
+WHAT WE DO
+</h2>
+<!-- Introductory Text -->
+<p style="font-size: 1.2em; max-width: 800px; color: black; margin-bottom: 30px; text-align: left;">
+Looking to collaborate on a research project? Need help turning data
+into insights? Find out how we can work together:
+</p>
+<!-- Navigation Boxes -->
+<div style="display: flex; flex-wrap: wrap; justify-content: center; width: 100%;">
+<pre><code>&lt;!-- Box 1 --&gt;
+&lt;div style=&quot;flex: 1 1 300px; margin: 10px; padding: 20px; background-color: #f7f7f7; min-width: 250px;&quot;&gt;
+  &lt;h3&gt;Box 1&lt;/h3&gt;
+  &lt;p&gt;Short description of what this link leads to.&lt;/p&gt;
+  &lt;button onclick=&quot;location.href=&#39;#&#39;;&quot;&gt;Go There&lt;/button&gt;
+&lt;/div&gt;
+
+&lt;!-- Box 2 --&gt;
+&lt;div style=&quot;flex: 1 1 300px; margin: 10px; padding: 20px; background-color: #f7f7f7; min-width: 250px;&quot;&gt;
+  &lt;h3&gt;Box 2&lt;/h3&gt;
+  &lt;p&gt;Short description of what this link leads to.&lt;/p&gt;
+  &lt;button onclick=&quot;location.href=&#39;#&#39;;&quot;&gt;Go There&lt;/button&gt;
+&lt;/div&gt;
+
+&lt;!-- Box 3 --&gt;
+&lt;div style=&quot;flex: 1 1 300px; margin: 10px; padding: 20px; background-color: #f7f7f7; min-width: 250px;&quot;&gt;
+  &lt;h3&gt;Box 3&lt;/h3&gt;
+  &lt;p&gt;Short description of what this link leads to.&lt;/p&gt;
+  &lt;button onclick=&quot;location.href=&#39;#&#39;;&quot;&gt;Go There&lt;/button&gt;
+&lt;/div&gt;
+
+&lt;!-- Box 4 --&gt;
+&lt;div style=&quot;flex: 1 1 300px; margin: 10px; padding: 20px; background-color: #f7f7f7; min-width: 250px;&quot;&gt;
+  &lt;h3&gt;Box 4&lt;/h3&gt;
+  &lt;p&gt;Short description of what this link leads to.&lt;/p&gt;
+  &lt;button onclick=&quot;location.href=&#39;#&#39;;&quot;&gt;Go There&lt;/button&gt;
+&lt;/div&gt;</code></pre>
 </div>
 </section>
-<!-- FOOTER -->
+</div>
+<div id="section-4" class="section level2">
+<h2><!-- FOOTER --></h2>
 <footer style="text-align: center; padding: 20px; background-color: #f2f2f2; margin-top: 40px;">
 <p>
 © 2025 My Website. All Rights Reserved.
 </p>
 </footer>
+</div>
 
 
 
