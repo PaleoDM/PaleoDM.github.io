@@ -1,0 +1,31 @@
+---
+  output:
+  html_document:
+---
+
+<!-- HEADER with Name -->
+---
+<header style="text-align: center; padding: 20px; background-color: #001731; color: white;">
+  <h1 style="margin: 0;">DR. CARLOS MAURICIO PEREDO</h1>
+</header>
+
+<nav style="background-color: #001731; padding: 10px; text-align: center;">
+  <a href="#RESEARCH" style="margin: 0 15px; color: white;">RESEARCH</a>
+  <a href="#PORTFOLIO" style="margin: 0 15px; color: white;">PORTFOLIO</a>
+  <a href="#STORYTELLING" style="margin: 0 15px; color: white;">STORYTELLING</a>
+  <a href="#MARTIALARTS" style="margin: 0 15px; color: white;">MARTIAL ARTS</a>
+</nav>
+
+
+
+Coming Soon!
+
+
+
+<!-- FOOTER -->
+---
+<footer style="background-color: #001731; color: white; text-align: center; padding: 20px; display: flex; justify-content: space-around; align-items: center;">
+  <a href="#" style="color: white; text-decoration: none;">PROJECT INQUIRIES</a>
+  <a href="#" style="color: white; text-decoration: none;">GOOGLE SCHOLAR</a>
+  <a href="#" style="color: white; text-decoration: none;">REQUEST REFERENCE</a>
+</footer>
