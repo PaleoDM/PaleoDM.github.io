@@ -41,7 +41,7 @@
     The local forest is under threat by The Logging Corporation. Only you and your team of heroes stand in their way. The catch? You’re all woodland critters. The denizens of the forest are counting on you!
   </p>
 
-  <a href="Critters_And_Catastrophes.pdf" target="_blank" style="text-decoration: none;">
+  <a href="Linked Files/Critters_And_Catastrophes.pdf" target="_blank" style="text-decoration: none;">
     <button style="margin-top: 10px; padding: 8px 16px; cursor: pointer; background-color: #0070F0; color: white; border: none; border-radius: 25px; font-size: 1em;">
       DOWNLOAD PDF
     </button>

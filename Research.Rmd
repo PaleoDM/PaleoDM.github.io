@@ -22,20 +22,19 @@
 <!-- Buttons Below Header -->
 <section style="display: flex; justify-content: center; gap: 20px; margin: 20px auto;">
   <!-- Button 1 -->
-  <a href="Peredo, Carlos Mauricio CV.pdf" target="_blank" style="text-decoration: none;">
+  <a href="Linked Files/Peredo, Carlos Mauricio CV.pdf" target="_blank" style="text-decoration: none;">
     <button style="padding: 12px 20px; cursor: pointer; background-color: #0070F0; color: white; border: none; border-radius: 25px; font-size: 1.2em;">
       ACADEMIC CV
     </button>
   </a>
 
   <!-- Button 2 -->
-  <a href="Peredo, Carlos Mauricio Resume.pdf" target="_blank" style="text-decoration: none;">
+  <a href="Linked Files/Peredo, Carlos Mauricio Resume.pdf" target="_blank" style="text-decoration: none;">
     <button style="padding: 12px 20px; cursor: pointer; background-color: #0070F0; color: white; border: none; border-radius: 25px; font-size: 1.2em;">
       PROFESSIONAL RESUME
     </button>
   </a>
 </section>
-
 
 
 
@@ -48,7 +47,7 @@
 </section>
 
 <!-- Image Below the Section -->
-<img src="Lab Overview.jpg" alt="Academic Research" style="display: block; margin: 20px auto; max-width: 100%; height: auto; border-radius: 10px;">
+<img src="Linked Files/Lab Overview.jpg" alt="Academic Research" style="display: block; margin: 20px auto; max-width: 100%; height: auto; border-radius: 10px;">
 
 <!-- Horizontal Line Divider as its own section -->
 <hr style="width: 100%; border: 1px solid #ccc; margin: 20px auto;">

@@ -19,7 +19,48 @@
 
 
 
-Coming Soon!
+<!-- Main Header Section -->
+<section style="display: flex; flex-direction: column; align-items: center; max-width: 1200px; margin: 40px auto;">
+  <h2 style="font-size: 2em; font-weight: bold; margin-bottom: 10px; color: #001731; text-align: center;">DATA PORTFOLIO</h2>
+</section>
+
+
+
+::: {style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; max-width: 1000px; margin: 40px auto;"}
+
+<!-- Project 1 -->
+::: {style="text-align: center;"}
+<a href="CompVision.html" style="font-size: 1.2em; font-weight: bold; color: #001731; text-decoration: none;">COMPUTER VISION SKULL IDENTIFIER</a><br>
+<a href="CompVision.html">
+  <img src="Linked Files/Skull Identifier Gallery/Thumbnail.png" alt="Project 1" style="width: 100%; max-width: 300px; height: auto; border-radius: 10px;">
+</a>
+:::
+
+<!-- Project 2 -->
+::: {style="text-align: center;"}
+<a href="abtesting.html" style="font-size: 1.2em; font-weight: bold; color: #001731; text-decoration: none;">A/B PROTOTYPE TESTING</a><br>
+<a href="abtesting.html">
+  <img src="Linked Files/AB Testing/AB1.png" alt="Project 2" style="width: 100%; max-width: 300px; height: auto; border-radius: 10px;">
+</a>
+:::
+
+<!-- Project 3 -->
+::: {style="text-align: center;"}
+<a href="relic.html" style="font-size: 1.2em; font-weight: bold; color: #001731; text-decoration: none;">RELIC BOT</a><br>
+<a href="relic.html">
+  <img src="Linked Files/RELIC bot/Bot3.png" alt="Project 3" style="width: 100%; max-width: 300px; height: auto; border-radius: 10px;">
+</a>
+:::
+
+<!-- Project 4 -->
+::: {style="text-align: center;"}
+<a href="gisviz.html" style="font-size: 1.2em; font-weight: bold; color: #001731; text-decoration: none;">GEOSPATIAL ANALYSES</a><br>
+<a href="gisviz.html">
+  <img src="Linked Files/Geospatial Gallery/Final Eckert Map.jpg" alt="Project 4" style="width: 100%; max-width: 300px; height: auto; border-radius: 10px;">
+</a>
+:::
+
+:::
 
 
 
