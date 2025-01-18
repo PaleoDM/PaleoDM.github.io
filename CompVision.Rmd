@@ -190,7 +190,7 @@ Our team developed a working prototype of a computer vision model powered by AI.
 
 <footer style="background-color: #001731; color: white; text-align: center; padding: 20px;">
   ::: {style="display: flex; justify-content: space-between; max-width: 1200px; margin: 0 auto; align-items: center;"}
-  [Project Inquiries](Inquiries.html){style="color: white; text-decoration: none;"}
+  [Project Inquiries](https://docs.google.com/forms/d/e/1FAIpQLSdxbH03CpaKTalBdizuW275xrO2VZ2KYM1sM98b5XTWRyxAhg/viewform?usp=header){style="color: white; text-decoration: none;"}
   [Google Scholar](https://scholar.google.com/citations?user=IZRnfS0AAAAJ&hl=en){style="color: white; text-decoration: none;"}
-  [Request Reference](Reference.html){style="color: white; text-decoration: none;"}
+  [Request Reference](https://docs.google.com/forms/d/e/1FAIpQLSeFxmpSRlH2oiHq5F6XDiFLehMtkKtf9iciqByCT1w2DkPVjA/viewform?usp=header){style="color: white; text-decoration: none;"}
 </footer>
