@@ -21,13 +21,13 @@
 
 <!-- Main Header Section -->
 <section style="display: flex; flex-direction: column; align-items: center; max-width: 1200px; margin: 40px auto;">
-  <h2 style="font-size: 2em; font-weight: bold; margin-bottom: 10px; color: #001731; text-align: center;">A/B PROTOTYPE TESTING</h2>
+  <h2 style="font-size: 2em; font-weight: bold; margin-bottom: 10px; color: #001731; text-align: center;">THE RELIC: A DISCORD BOT</h2>
 </section>
 
 
 
 <!-- Image Below the Section -->
-<img src="Linked Files/AB Testing/Test 2.png" alt="Skull Thumbnail" style="display: block; margin: 20px auto; max-width: 100%; height: auto; border-radius: 10px;">
+<img src="Linked Files/RELIC bot/Bot3.png" alt="Skull Thumbnail" style="display: block; margin: 20px auto; max-width: 100%; height: auto; border-radius: 10px;">
 
 <!-- Horizontal Line Divider as its own section -->
 <hr style="width: 100%; border: 1px solid #ccc; margin: 20px auto;">
@@ -37,43 +37,43 @@
 <!-- Subheading: Project Overview -->
 <h3 style="font-size: 1.5em; font-weight: bold; margin-bottom: 20px; color: #001731; text-align: center;">PROJECT OVERVIEW</h3>
 
-<!-- Full-Width Text -->
-::: {style="max-width: 1200px; margin: 0 auto;"}
+::: {style="display: flex; gap: 20px; max-width: 1200px; margin: 0 auto;"}
+
+<!-- Left Column -->
+::: {style="flex: 1; max-width: 50%;"}
 
 <span style="font-size: 1.2em; font-weight: bold; color: #001731;">CLIENT</span>  
-Code.org (computer science education nonprofit)
+The Morbid Corvid (tabletop gaming discord server) 
 
 <br>
 
 <span style="font-size: 1.2em; font-weight: bold; color: #001731;">GOAL</span>  
-Measure user performance for specific tasks across multiple different navigation prototypes.
+Create a discord bot that allows users to query information from a Wiki.  
 
 <br>
 
 <span style="font-size: 1.2em; font-weight: bold; color: #001731;">PRIMARY TOOLS</span>  
-R & RStudio, RMarkdown, Shiny 
+Python & Jupyter Notebooks, Kaggle, Discord  
 
 <br>
 
 <span style="font-size: 1.2em; font-weight: bold; color: #001731;">BACKGROUND</span>  
-The client is redesigning their navigation to improve user performance across specific tasks. They have designed several navigation prototypes and conducted multiple rounds of user testing for each. The client needs insightful data analysis that converts data into actionable decision making.  
+The client runs a discord server for users to gather and play tabletop games. These games often have complex rulesets, which are stored in a Wiki. The client would like users to be able to quickly query the Wiki for rules, rather than needing to leave Discord to search for the information themselves.
 
 <br>
 
 <span style="font-size: 1.2em; font-weight: bold; color: #001731;">PRODUCT</span>  
-Our team helped the client formulate and test hypotheses to compare user performance across prototypes. We produced a data report that identified which prototypes performed best. Our work revealed critical patterns across user operating system and screen size. We consulted on design modifications to maximize the client’s desired metrics while minimizing error rates.  
+Developed and launched a fully operational Discord bot (The RELIC) that links to the curated Wiki for each game’s rulesets. Users can call the bot with command inputs and receive the corresponding passage of the rules for quick reference.  
 
 :::
 
-<!-- Two Side-by-Side Images -->
-::: {style="display: flex; gap: 20px; max-width: 1200px; margin: 40px auto; justify-content: center;"}
+<!-- Right Column -->
+::: {style="flex: 1; max-width: 50%; text-align: center;"}
+<img src="Linked Files/RELIC bot/Bot5.png" style="width: 100%; max-width: 400px; height: auto; border-radius: 10px;" alt="">
 
-::: {style="flex: 1; text-align: center;"}
-<img src="Linked Files/AB Testing/Test 1.png" style="width: 100%; max-width: 400px; height: auto; border-radius: 10px;" alt="">
-:::
+<img src="Linked Files/RELIC bot/Spellbook.png" style="width: 100%; max-width: 400px; height: auto; border-radius: 10px;" alt="">
 
-::: {style="flex: 1; text-align: center;"}
-<img src="Linked Files/AB Testing/Test 2.png" style="width: 100%; max-width: 400px; height: auto; border-radius: 10px;" alt="">
+<img src="Linked Files/RELIC bot/Cast a Spell.png" style="width: 100%; max-width: 400px; height: auto; border-radius: 10px;" alt="">
 :::
 
 :::
@@ -89,21 +89,21 @@ Our team helped the client formulate and test hypotheses to compare user perform
 <!-- Dropdown Section -->
 <details style="margin-bottom: 20px;">
   <summary style="font-size: 1.2em; font-weight: bold; color: #001731; cursor: pointer; padding: 10px; background-color: #f7f7f7; border-radius: 5px;">
-    DATA OUTLIERS
+    MULTIPLE GAME WIKIs
   </summary>
   <p style="margin: 10px 20px; font-size: 1em; color: black;">
-    <b>The Challenge</b>: the client’s chosen user testing platform failed to identify key outliers, resulting in spurious preliminary conclusions <br> <br>
-    <b>The Solution</b>: we identified and removed notable outliers, transformed the data to bolster its statistical power, and consulted on other details of the experimental design to maximize the data’s utility. 
+    <b>The Challenge</b>: the client’s rulesets are scattered across multiple different Wikis for each game <br> <br>
+    <b>The Solution</b>: create a master Wiki that automatically pulls updates fromhe individual Wiki pages and can be querried individually by the RELIC discord bot.
   </p>
 </details>
 
 <details style="margin-bottom: 20px;">
   <summary style="font-size: 1.2em; font-weight: bold; color: #001731; cursor: pointer; padding: 10px; background-color: #f7f7f7; border-radius: 5px;">
-    DIVERSE SCREEN SIZES
+    USER SPECIFIC VERSIONING
   </summary>
   <p style="margin: 10px 20px; font-size: 1em; color: black;">
-    <b>The Challenge</b>: the users participating in the tests used a myriad of screen sizes and resolutions, including sizes which were not considered when designing the Navigation. <br> <br>
-    <b>The Solution</b>: we tested for anomalous patterns across different screen sizes and identified key breakpoints where error rates jumped.
+    <b>The Challenge</b>: the client wants different groups of users to be able to modify a game’s rulesets to fit their specific needs. <br> <br>
+    <b>The Solution</b>: create game specific Wikis and prompt the users to select their Wiki of choice when first engaging The RELIC bot. Users can then modify their Wikis as needed without pushing changes to the entire server. 
   </p>
 </details>
 
@@ -116,11 +116,11 @@ Our team helped the client formulate and test hypotheses to compare user perform
 ::: {style="display: flex; gap: 20px; max-width: 1200px; margin: 40px auto; justify-content: center;"}
 
 ::: {style="flex: 1; text-align: center;"}
-<img src="Linked Files/AB Testing/Outliers Histogram.png" style="width: 100%; max-width: 400px; height: auto; border-radius: 10px;" alt="">
+<img src="Linked Files/RELIC bot/Scout Ahead.png" style="width: 100%; max-width: 400px; height: auto; border-radius: 10px;" alt="">
 :::
 
 ::: {style="flex: 1; text-align: center;"}
-<img src="Linked Files/AB Testing/Operating Systems.png" style="width: 100%; max-width: 400px; height: auto; border-radius: 10px;" alt="">
+<img src="Linked Files/RELIC bot/Give Chase.png" style="width: 100%; max-width: 400px; height: auto; border-radius: 10px;" alt="">
 :::
 
 :::
@@ -132,28 +132,30 @@ Our team helped the client formulate and test hypotheses to compare user perform
 
 <!-- Details: Challenges and Solutions -->
 <h3 style="font-size: 1.5em; font-weight: bold; margin-bottom: 20px; color: #001731; text-align: center;">NEXT STEPS</h3>
+<p style="font-size: 1.2em; max-width: 800px; color: black; margin-bottom: 30px; text-align: left; align-self: flex-start;">
+    Now that The RELIC is operational, what's next? 
+  </p>
 
 <!-- Dropdown Section -->
 <details style="margin-bottom: 20px;">
   <summary style="font-size: 1.2em; font-weight: bold; color: #001731; cursor: pointer; padding: 10px; background-color: #f7f7f7; border-radius: 5px;">
-    ADVISE THE CLIENT
+    CLOUD HOSTING
   </summary>
   <p style="margin: 10px 20px; font-size: 1em; color: black;">
-    Our results demonstrate that users performance is significantly improved by prototype E. We can confidently recommend Prototype E to the client if all other factors are equal.  
-  </p>
+    Hosting The RELIC on a cloud based platform will ensure that the bot is always active, not just when a Discord moderator is available to host.   </p>
 </details>
 
 <details style="margin-bottom: 20px;">
   <summary style="font-size: 1.2em; font-weight: bold; color: #001731; cursor: pointer; padding: 10px; background-color: #f7f7f7; border-radius: 5px;">
-    IDENTIFY OTHER KPIs
+    DICE ROLLER
   </summary>
   <p style="margin: 10px 20px; font-size: 1em; color: black;">
-    The user testing reports include other metrics of interest, such as a 1-5 rating of how intuitive the user found the prototype. We will further explore the data to identify additional patterns that may inform the client’s choice. 
+    Tabletop games frequently employ dice rolling mechanics. Adding a dice rolling functionality keeps users from leaving the platform for other tools. 
   </p>
 </details>
 
 <!-- Image Below the Section -->
-<img src="Linked Files/AB Testing/Statistics.png" alt="Skull Thumbnail" style="display: block; margin: 20px auto; max-width: 100%; height: auto; border-radius: 10px;">
+<img src="Linked Files/RELIC bot/Bot4.jpg" alt="Skull Thumbnail" style="display: block; margin: 20px auto; max-width: 100%; height: auto; border-radius: 10px;">
 
 
 
@@ -169,8 +171,8 @@ Our team helped the client formulate and test hypotheses to compare user perform
   </a>
 
   <!-- Next Project -->
-  <a href="relic.html" style="font-size: 1em; font-weight: bold; color: #001731; text-decoration: none;">
-    Next: Discord Bot
+  <a href="gisviz.html" style="font-size: 1em; font-weight: bold; color: #001731; text-decoration: none;">
+    Next: Geospatial Analyses
   </a>
 
 </div>

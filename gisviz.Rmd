@@ -21,13 +21,13 @@
 
 <!-- Main Header Section -->
 <section style="display: flex; flex-direction: column; align-items: center; max-width: 1200px; margin: 40px auto;">
-  <h2 style="font-size: 2em; font-weight: bold; margin-bottom: 10px; color: #001731; text-align: center;">A/B PROTOTYPE TESTING</h2>
+  <h2 style="font-size: 2em; font-weight: bold; margin-bottom: 10px; color: #001731; text-align: center;">GEOSPATIAL VISUALIZATION ANALYSES</h2>
 </section>
 
 
 
 <!-- Image Below the Section -->
-<img src="Linked Files/AB Testing/Test 2.png" alt="Skull Thumbnail" style="display: block; margin: 20px auto; max-width: 100%; height: auto; border-radius: 10px;">
+<img src="Linked Files/Geospatial Gallery/Final Eckert Map.jpg" alt="Map" style="display: block; margin: 20px auto; max-width: 100%; height: auto; border-radius: 10px;">
 
 <!-- Horizontal Line Divider as its own section -->
 <hr style="width: 100%; border: 1px solid #ccc; margin: 20px auto;">
@@ -37,43 +37,39 @@
 <!-- Subheading: Project Overview -->
 <h3 style="font-size: 1.5em; font-weight: bold; margin-bottom: 20px; color: #001731; text-align: center;">PROJECT OVERVIEW</h3>
 
-<!-- Full-Width Text -->
-::: {style="max-width: 1200px; margin: 0 auto;"}
+::: {style="display: flex; gap: 20px; max-width: 1200px; margin: 0 auto;"}
+
+<!-- Left Column -->
+::: {style="flex: 1; max-width: 50%;"}
 
 <span style="font-size: 1.2em; font-weight: bold; color: #001731;">CLIENT</span>  
-Code.org (computer science education nonprofit)
+Paleobiology Database  
 
 <br>
 
 <span style="font-size: 1.2em; font-weight: bold; color: #001731;">GOAL</span>  
-Measure user performance for specific tasks across multiple different navigation prototypes.
+Develop a predictive model that forecasts the prevalence of marine mammal fossils across the globe.  
 
 <br>
 
 <span style="font-size: 1.2em; font-weight: bold; color: #001731;">PRIMARY TOOLS</span>  
-R & RStudio, RMarkdown, Shiny 
+R & RStudio, GIS, Adobe Creative Suite 
 
 <br>
 
 <span style="font-size: 1.2em; font-weight: bold; color: #001731;">BACKGROUND</span>  
-The client is redesigning their navigation to improve user performance across specific tasks. They have designed several navigation prototypes and conducted multiple rounds of user testing for each. The client needs insightful data analysis that converts data into actionable decision making.  
+The client is a non-governmental non-profit public resource for paleontological data. Their mission is to encourage and enable data-driven collaborative efforts that address large-scale paleobiological questions. The client requests a way to predict potential fossil localities to discover new fossils.  
 
 <br>
 
 <span style="font-size: 1.2em; font-weight: bold; color: #001731;">PRODUCT</span>  
-Our team helped the client formulate and test hypotheses to compare user performance across prototypes. We produced a data report that identified which prototypes performed best. Our work revealed critical patterns across user operating system and screen size. We consulted on design modifications to maximize the client’s desired metrics while minimizing error rates.  
+Our team developed a predictive model using marine mammals as study organisms. The model uses the geospatial coordinates of all known marine mammal fossils and identifies key geographic, environmental, and socioeconomic predictors of fossil localities. The model successfully forecasts locations with a high probability of yielding new fossil discoveries.  
 
 :::
 
-<!-- Two Side-by-Side Images -->
-::: {style="display: flex; gap: 20px; max-width: 1200px; margin: 40px auto; justify-content: center;"}
-
-::: {style="flex: 1; text-align: center;"}
-<img src="Linked Files/AB Testing/Test 1.png" style="width: 100%; max-width: 400px; height: auto; border-radius: 10px;" alt="">
-:::
-
-::: {style="flex: 1; text-align: center;"}
-<img src="Linked Files/AB Testing/Test 2.png" style="width: 100%; max-width: 400px; height: auto; border-radius: 10px;" alt="">
+<!-- Right Column -->
+::: {style="flex: 1; max-width: 50%; text-align: center;"}
+<img src="Linked Files/Geospatial Gallery/arctic-results.jpg" style="width: 100%; max-width: 400px; height: auto; border-radius: 10px;" alt="">
 :::
 
 :::
@@ -81,6 +77,12 @@ Our team helped the client formulate and test hypotheses to compare user perform
 
 
 <!-- Horizontal Line Divider as its own section -->
+<hr style="width: 100%; border: 1px solid #ccc; margin: 20px auto;">
+
+<!-- Image Below the Section -->
+<img src="Linked Files/Geospatial Gallery/Alpha Diversity.jpg" alt="Results" style="display: block; margin: 20px auto; max-width: 100%; height: auto; border-radius: 10px;">
+
+<!-- Horizontal Divider -->
 <hr style="width: 100%; border: 1px solid #ccc; margin: 20px auto;">
 
 <!-- Details: Challenges and Solutions -->
@@ -89,21 +91,21 @@ Our team helped the client formulate and test hypotheses to compare user perform
 <!-- Dropdown Section -->
 <details style="margin-bottom: 20px;">
   <summary style="font-size: 1.2em; font-weight: bold; color: #001731; cursor: pointer; padding: 10px; background-color: #f7f7f7; border-radius: 5px;">
-    DATA OUTLIERS
+    DIFFERENT ORGANISMS
   </summary>
   <p style="margin: 10px 20px; font-size: 1em; color: black;">
-    <b>The Challenge</b>: the client’s chosen user testing platform failed to identify key outliers, resulting in spurious preliminary conclusions <br> <br>
-    <b>The Solution</b>: we identified and removed notable outliers, transformed the data to bolster its statistical power, and consulted on other details of the experimental design to maximize the data’s utility. 
+    <b>The Challenge</b>: different groups of organisms have their distributions influenced by completely different factors.  <br> <br>
+    <b>The Solution</b>: develop independent models based on organisms with similar ecologies and geographic distributions to avoid homogeneity of the model.
   </p>
 </details>
 
 <details style="margin-bottom: 20px;">
   <summary style="font-size: 1.2em; font-weight: bold; color: #001731; cursor: pointer; padding: 10px; background-color: #f7f7f7; border-radius: 5px;">
-    DIVERSE SCREEN SIZES
+    INHERENT BIAS
   </summary>
   <p style="margin: 10px 20px; font-size: 1em; color: black;">
-    <b>The Challenge</b>: the users participating in the tests used a myriad of screen sizes and resolutions, including sizes which were not considered when designing the Navigation. <br> <br>
-    <b>The Solution</b>: we tested for anomalous patterns across different screen sizes and identified key breakpoints where error rates jumped.
+    <b>The Challenge</b>: fossil distribution is heavily biased by socioeconomic factors, such as GDP, which do not reflect a true biological or geologic signal. <br> <br>
+    <b>The Solution</b>: standardize the dataset for GDP and other socioeconomic factors to avoid implicit Northern Hemisphere bias.
   </p>
 </details>
 
@@ -112,48 +114,36 @@ Our team helped the client formulate and test hypotheses to compare user perform
 <!-- Horizontal Line Divider as its own section -->
 <hr style="width: 100%; border: 1px solid #ccc; margin: 20px auto;">
 
-<!-- Two Side-by-Side Images -->
-::: {style="display: flex; gap: 20px; max-width: 1200px; margin: 40px auto; justify-content: center;"}
+<!-- Image Below the Section -->
+<img src="Linked Files/Geospatial Gallery/Orig and Ext.jpg" alt="Results" style="display: block; margin: 20px auto; max-width: 100%; height: auto; border-radius: 10px;">
 
-::: {style="flex: 1; text-align: center;"}
-<img src="Linked Files/AB Testing/Outliers Histogram.png" style="width: 100%; max-width: 400px; height: auto; border-radius: 10px;" alt="">
-:::
-
-::: {style="flex: 1; text-align: center;"}
-<img src="Linked Files/AB Testing/Operating Systems.png" style="width: 100%; max-width: 400px; height: auto; border-radius: 10px;" alt="">
-:::
-
-:::
-
-
-
-<!-- Horizontal Line Divider as its own section -->
+<!-- Horizontal Divider -->
 <hr style="width: 100%; border: 1px solid #ccc; margin: 20px auto;">
 
-<!-- Details: Challenges and Solutions -->
+<!-- Details: Next Steps -->
 <h3 style="font-size: 1.5em; font-weight: bold; margin-bottom: 20px; color: #001731; text-align: center;">NEXT STEPS</h3>
+<p style="margin: 10px 20px; font-size: 1em; color: black;">
+    Now that we've delivered the model to the client, what's next? 
+  </p>
 
 <!-- Dropdown Section -->
 <details style="margin-bottom: 20px;">
   <summary style="font-size: 1.2em; font-weight: bold; color: #001731; cursor: pointer; padding: 10px; background-color: #f7f7f7; border-radius: 5px;">
-    ADVISE THE CLIENT
+    EXPAND THE SCOPE
   </summary>
   <p style="margin: 10px 20px; font-size: 1em; color: black;">
-    Our results demonstrate that users performance is significantly improved by prototype E. We can confidently recommend Prototype E to the client if all other factors are equal.  
+   Marine mammals were an ideal starting point because their distribution is easily modeled to modern coastlines. Now, we can expand to other fossil groups, including terrestrial organisms.
   </p>
 </details>
 
 <details style="margin-bottom: 20px;">
   <summary style="font-size: 1.2em; font-weight: bold; color: #001731; cursor: pointer; padding: 10px; background-color: #f7f7f7; border-radius: 5px;">
-    IDENTIFY OTHER KPIs
+    UNITE DATASETS
   </summary>
   <p style="margin: 10px 20px; font-size: 1em; color: black;">
-    The user testing reports include other metrics of interest, such as a 1-5 rating of how intuitive the user found the prototype. We will further explore the data to identify additional patterns that may inform the client’s choice. 
+    The dstribution of fossils is just the first step. A major factor is being able to excavate fossils is the surface exposure of the bedrock. By combinind our model with geologic maps from the USGS, we'll be able to forecast high value localities for paleontologists to prospect. 
   </p>
 </details>
-
-<!-- Image Below the Section -->
-<img src="Linked Files/AB Testing/Statistics.png" alt="Skull Thumbnail" style="display: block; margin: 20px auto; max-width: 100%; height: auto; border-radius: 10px;">
 
 
 
@@ -169,8 +159,8 @@ Our team helped the client formulate and test hypotheses to compare user perform
   </a>
 
   <!-- Next Project -->
-  <a href="relic.html" style="font-size: 1em; font-weight: bold; color: #001731; text-decoration: none;">
-    Next: Discord Bot
+  <a href="CompVision.html" style="font-size: 1em; font-weight: bold; color: #001731; text-decoration: none;">
+    Next: Computer Vision Model
   </a>
 
 </div>

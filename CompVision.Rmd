@@ -82,6 +82,9 @@ Our team developed a working prototype of a computer vision model powered by AI.
 <!-- Image Below the Section -->
 <img src="Linked Files/Skull Identifier Gallery/Horizontal.png" alt="Skull Thumbnail" style="display: block; margin: 20px auto; max-width: 100%; height: auto; border-radius: 10px;">
 
+<!-- Horizontal Divider -->
+<hr style="width: 100%; border: 1px solid #ccc; margin: 20px auto;">
+
 <!-- Details: Challenges and Solutions -->
 <h3 style="font-size: 1.5em; font-weight: bold; margin-bottom: 20px; color: #001731; text-align: center;">CHALLENGES AND SOLUTIONS</h3>
 
@@ -123,6 +126,9 @@ Our team developed a working prototype of a computer vision model powered by AI.
 
 <!-- Image Below the Section -->
 <img src="Linked Files/Skull Identifier Gallery/Code.png" alt="Skull Thumbnail" style="display: block; margin: 20px auto; max-width: 100%; height: auto; border-radius: 10px;">
+
+<!-- Horizontal Divider -->
+<hr style="width: 100%; border: 1px solid #ccc; margin: 20px auto;">
 
 <!-- Details: Next Steps -->
 <h3 style="font-size: 1.5em; font-weight: bold; margin-bottom: 20px; color: #001731; text-align: center;">NEXT STEPS</h3>
