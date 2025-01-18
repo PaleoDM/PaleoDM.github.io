@@ -166,7 +166,7 @@ Developed and launched a fully operational Discord bot (The RELIC) that links to
 <div style="display: flex; justify-content: space-between; max-width: 1200px; margin: 20px auto;">
 
   <!-- Back to Portfolio -->
-  <a href="portfolio.html" style="font-size: 1em; font-weight: bold; color: #001731; text-decoration: none;">
+  <a href="Portfolio.html" style="font-size: 1em; font-weight: bold; color: #001731; text-decoration: none;">
     Back to Portfolio
   </a>
 
