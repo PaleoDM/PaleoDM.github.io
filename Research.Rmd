@@ -43,121 +43,141 @@
 <!-- Publications List -->
 <!-- Publication 20 -->
 <section style="font-size: 1.2em; max-width: 800px; color: black; text-align: left; margin: 20px auto;">
-  20. Ramírez-Díaz, C., M.A. Kolmann, **Peredo, C.M.**, and V.H. Cruz-Escalona. 2024. Cranial musculature of batoids: A standardized nomenclature. **The Anatomical Record**. Early Access. Read Publication
+  20. Ramírez-Díaz, C., M.A. Kolmann, **Peredo, C.M.**, and V.H. Cruz-Escalona. 2024. Cranial musculature of batoids: A standardized nomenclature. **The Anatomical Record**. Early Access. 
+  <a href="https://doi.org/10.1002/ar.25527" style="color: #0070F0; text-decoration: none;">Read Publication</a>
   <div data-badge-popover="right" data-badge-type="1" data-doi="https://doi.org/10.1002/ar.25527" data-hide-no-mentions="false" class="altmetric-embed"></div>
 </section>
 
 <!-- Publication 19 -->
 <section style="font-size: 1.2em; max-width: 800px; color: black; text-align: left; margin: 20px auto;">
-  19. Medrano, R.A., V.H. Cruz-Escalona, J.A. Payán Alcacio, L.R. de Oliveira, A.O. Vargas, C.J. Hernández-Camacho, and **C.M. Peredo**. 2024. Skull shape and size changes in different populations of Zalophus californianus in Mexico. **Journal of Mammalian Evolution** 105:1, 192–205. Read Publication
+ 19. Medrano, R.A., V.H. Cruz-Escalona, J.A. Payán Alcacio, L.R. de Oliveira, A.O. Vargas, C.J. Hernández-Camacho, and **C.M. Peredo**. 2024. Skull shape and size changes in different populations of Zalophus californianus in Mexico. **Journal of Mammalian Evolution** 105:1, 192–205. 
+  <a href="https://doi.org/10.1093/jmammal/gyad104" style="color: #0070F0; text-decoration: none;">Read Publication</a>
   <div data-badge-popover="right" data-badge-type="1" data-doi="https://doi.org/10.1093/jmammal/gyad104" data-hide-no-mentions="false" class="altmetric-embed"></div>
 </section>
 
 <!-- Publication 18 -->
 <section style="font-size: 1.2em; max-width: 800px; color: black; text-align: left; margin: 20px auto;">
-  18. Nieto-Miranda, J. Jesús, R. Aguilar-Medrano, C.J. Hernández-Camacho, **C.M. Peredo**, V.H. Cruz-Escalona. 2023. Mechanical properties of the California sea lion (*Zalophus californianus*) and northern elephant seal (*Mirounga angustirostris*) lower jaws explain trophic plasticity. **The Anatomical Record** 10, 2598–2609. Read Publication
+  18. Nieto-Miranda, J. Jesús, R. Aguilar-Medrano, C.J. Hernández-Camacho, **C.M. Peredo**, V.H. Cruz-Escalona. 2023. Mechanical properties of the California sea lion (*Zalophus californianus*) and northern elephant seal (*Mirounga angustirostris*) lower jaws explain trophic plasticity. **The Anatomical Record** 10, 2598–2609. 
+  <a href="https://doi.org/10.1002/ar.25180" style="color: #0070F0; text-decoration: none;">Read Publication</a>
   <div data-badge-popover="right" data-badge-type="1" data-doi="https://doi.org/10.1002/ar.25180" data-hide-no-mentions="false" class="altmetric-embed"></div>
 </section>
 
 <!-- Publication 17 -->
 <section style="font-size: 1.2em; max-width: 800px; color: black; text-align: left; margin: 20px auto;">
- 17. **Peredo, C.M.**, N.D. Pyenson, and M.D. Uhen. 2022. Lateral palatal foramina do not indicate baleen in fossil whales. **Scientific Reports** 12, 11448. Read Publication
+  17. **Peredo, C.M.**, N.D. Pyenson, and M.D. Uhen. 2022. Lateral palatal foramina do not indicate baleen in fossil whales. **Scientific Reports** 12, 11448. 
+  <a href="https://doi.org/10.1038/s41598-022-15684-8" style="color: #0070F0; text-decoration: none;">Read Publication</a>
   <div data-badge-popover="right" data-badge-type="1" data-doi="https://doi.org/10.1038/s41598-022-15684-8" data-hide-no-mentions="false" class="altmetric-embed"></div>
 </section>
 
 <!-- Publication 16 -->
 <section style="font-size: 1.2em; max-width: 800px; color: black; text-align: left; margin: 20px auto;">
- 16. **Peredo, C.M.**, D.N. Ingle, and C.D. Marshall. 2022. Puncture performance tests reveal distinct feeding modes in pinniped teeth. **Journal of Experimental Biology** 225: 11, jeb244296. Read Publication
+ 16. **Peredo, C.M.**, D.N. Ingle, and C.D. Marshall. 2022. Puncture performance tests reveal distinct feeding modes in pinniped teeth. **Journal of Experimental Biology** 225: 11, jeb244296. 
+  <a href="https://doi.org/10.1242/jeb.244296" style="color: #0070F0; text-decoration: none;">Read Publication</a>
   <div data-badge-popover="right" data-badge-type="1" data-doi="https://doi.org/10.1242/jeb.244296" data-hide-no-mentions="false" class="altmetric-embed"></div>
 </section>
 
 <!-- Publication 15 -->
 <section style="font-size: 1.2em; max-width: 800px; color: black; text-align: left; margin: 20px auto;">
- 15. **Peredo, C.M.**, and N.D. Pyenson. 2021. Morphological variation of the relictual alveolar structures in the mandibles of baleen whales. **PeerJ** 9, e11890. Read Publication | Spanish Abstract
+  15. **Peredo, C.M.**, and N.D. Pyenson. 2021. Morphological variation of the relictual alveolar structures in the mandibles of baleen whales. **PeerJ** 9, e11890. 
+  <a href="https://doi.org/10.7717/peerj.11890" style="color: #0070F0; text-decoration: none;">Read Publication</a>
   <div data-badge-popover="right" data-badge-type="1" data-doi="https://doi.org/10.7717/peerj.11890" data-hide-no-mentions="false" class="altmetric-embed"></div>
 </section>
 
 <!-- Publication 14 -->
 <section style="font-size: 1.2em; max-width: 800px; color: black; text-align: left; margin: 20px auto;">
-  14. Groves*, S.L., **C.M. Peredo**, and N.D. Pyenson. 2021. What are the limits to whale ear bone size? Non-isometric scaling of the cetacean bulla. **PeerJ** 9, e10882. Read Publication
+  14. Groves*, S.L., **C.M. Peredo**, and N.D. Pyenson. 2021. What are the limits to whale ear bone size? Non-isometric scaling of the cetacean bulla. **PeerJ** 9, e10882. 
+  <a href="https://doi.org/10.7717/peerj.10882" style="color: #0070F0; text-decoration: none;">Read Publication</a>
   <div data-badge-popover="right" data-badge-type="1" data-doi="https://doi.org/10.7717/peerj.10882" data-hide-no-mentions="false" class="altmetric-embed"></div>
 </section>
 
 <!-- Publication 13 -->
 <section style="font-size: 1.2em; max-width: 800px; color: black; text-align: left; margin: 20px auto;">
- 13. Uhen, M.D., and **C.M. Peredo**. 2021. The first possible remingtonocetid stem whale from North America. **Acta Palaeontologica Polonica** 66:1, 77–83. Read Publication
+  13. Uhen, M.D., and **C.M. Peredo**. 2021. The first possible remingtonocetid stem whale from North America. **Acta Palaeontologica Polonica** 66:1, 77–83. 
+  <a href="https://doi.org/10.4202/app.00799.2020" style="color: #0070F0; text-decoration: none;">Read Publication</a>
   <div data-badge-popover="right" data-badge-type="1" data-doi="https://doi.org/10.4202/app.00799.2020" data-hide-no-mentions="false" class="altmetric-embed"></div>
 </section>
 
 <!-- Publication 12 -->
 <section style="font-size: 1.2em; max-width: 800px; color: black; text-align: left; margin: 20px auto;">
- 12. Tate-Jones, M.K., **C.M. Peredo**, C.D. Marshall, and S.S.B. Hopkins. 2020. The dawn of Desmatophocidae: a new species of basal desmatophocid seal (Mammalia, Carnivora) from the Miocene of Oregon, USA. **Journal of Vertebrate Paleontology** 40:4, 1–12. Read Publication
+  12. Tate-Jones, M.K., **C.M. Peredo**, C.D. Marshall, and S.S.B. Hopkins. 2020. The dawn of Desmatophocidae: a new species of basal desmatophocid seal (Mammalia, Carnivora) from the Miocene of Oregon, USA. **Journal of Vertebrate Paleontology** 40:4, 1–12. 
+  <a href="https://doi.org/10.1080/02724634.2020.1789867" style="color: #0070F0; text-decoration: none;">Read Publication</a>
   <div data-badge-popover="right" data-badge-type="1" data-doi="https://doi.org/10.1080/02724634.2020.1789867" data-hide-no-mentions="false" class="altmetric-embed"></div>
 </section>
 
 <!-- Publication 11 -->
 <section style="font-size: 1.2em; max-width: 800px; color: black; text-align: left; margin: 20px auto;">
- 11. Leslie, M.S., **C.M. Peredo**, and N.D. Pyenson. 2019. *Norrisanima miocaena*, a new generic name and rediscription of a stem balaenopteroid mysticete (Mammalia, Cetacea) from the Miocene of California. **PeerJ** 7, e7629. Read Publication
+  11. Leslie, M.S., **C.M. Peredo**, and N.D. Pyenson. 2019. *Norrisanima miocaena*, a new generic name and rediscription of a stem balaenopteroid mysticete (Mammalia, Cetacea) from the Miocene of California. **PeerJ** 7, e7629. 
+  <a href="https://doi.org/10.7717/peerj.7629" style="color: #0070F0; text-decoration: none;">Read Publication</a>
   <div data-badge-popover="right" data-badge-type="1" data-doi="https://doi.org/10.7717/peerj.7629" data-hide-no-mentions="false" class="altmetric-embed"></div>
 </section>
 
 <!-- Publication 10 -->
 <section style="font-size: 1.2em; max-width: 800px; color: black; text-align: left; margin: 20px auto;">
- 10. Shipps*, B.K., **C.M. Peredo**, and N.D. Pyenson. 2019. *Borealodon osedax*, a new stem mysticete (Mammalia, Cetacea) from the Oligocene of Washington State and its implications for fossil whale-fall communities. **Royal Society Open Science** 6, 182168. Read Publication
+  10. Shipps*, B.K., **C.M. Peredo**, and N.D. Pyenson. 2019. *Borealodon osedax*, a new stem mysticete (Mammalia, Cetacea) from the Oligocene of Washington State and its implications for fossil whale-fall communities. **Royal Society Open Science** 6, 182168. 
+  <a href="https://doi.org/10.1098/rsos.182168" style="color: #0070F0; text-decoration: none;">Read Publication</a>
   <div data-badge-popover="right" data-badge-type="1" data-doi="https://doi.org/10.1098/rsos.182168" data-hide-no-mentions="false" class="altmetric-embed"></div>
 </section>
 
 <!-- Publication 9 -->
 <section style="font-size: 1.2em; max-width: 800px; color: black; text-align: left; margin: 20px auto;">
- 9. **Peredo, C.M.**, N.D. Pyenson, C.D. Marshall, and M.D. Uhen. 2018. Tooth loss precedes the origin of baleen in whales. **Current Biology** 28, 3992–4000. Read Publication
+  9. **Peredo, C.M.**, N.D. Pyenson, C.D. Marshall, and M.D. Uhen. 2018. Tooth loss precedes the origin of baleen in whales. **Current Biology** 28, 3992–4000. 
+  <a href="https://doi.org/10.1016/j.cub.2018.10.047" style="color: #0070F0; text-decoration: none;">Read Publication</a>
   <div data-badge-popover="right" data-badge-type="1" data-doi="https://doi.org/10.1016/j.cub.2018.10.047" data-hide-no-mentions="false" class="altmetric-embed"></div>
 </section>
 
 <!-- Publication 8 -->
 <section style="font-size: 1.2em; max-width: 800px; color: black; text-align: left; margin: 20px auto;">
- 8. **Peredo, C.M.**, J.S. Peredo, and N.D. Pyenson. 2018. Convergence on dental simplification in the evolution of whales. **Paleobiology** 44:3, 434–443. Read Publication
+  8. **Peredo, C.M.**, J.S. Peredo, and N.D. Pyenson. 2018. Convergence on dental simplification in the evolution of whales. **Paleobiology** 44:3, 434–443. 
+  <a href="https://doi.org/10.1017/pab.2018.9" style="color: #0070F0; text-decoration: none;">Read Publication</a>
   <div data-badge-popover="right" data-badge-type="1" data-doi="https://doi.org/10.1017/pab.2018.9" data-hide-no-mentions="false" class="altmetric-embed"></div>
 </section>
 
 <!-- Publication 7 -->
 <section style="font-size: 1.2em; max-width: 800px; color: black; text-align: left; margin: 20px auto;">
- 7. **Peredo, C.M.**, and N.D. Pyenson. 2018. *Salishicetus meadi*, a new aetiocetid from the late Oligocene of Washington State and implications for feeding transitions in early mysticete evolution. **Royal Society Open Science** 5, 172336. Read Publication
-  <div data-badge-popover="right" data-badge-type="1" data-doi="DOI: 10.1098/rsos.172336" data-hide-no-mentions="false" class="altmetric-embed"></div>
+  7. **Peredo, C.M.**, and N.D. Pyenson. 2018. *Salishicetus meadi*, a new aetiocetid from the late Oligocene of Washington State and implications for feeding transitions in early mysticete evolution. **Royal Society Open Science** 5, 172336. 
+  <a href="https://doi.org/10.1098/rsos.172336" style="color: #0070F0; text-decoration: none;">Read Publication</a>
+  <div data-badge-popover="right" data-badge-type="1" data-doi="https://doi.org/10.1098/rsos.172336" data-hide-no-mentions="false" class="altmetric-embed"></div>
 </section>
 
 <!-- Publication 6 -->
 <section style="font-size: 1.2em; max-width: 800px; color: black; text-align: left; margin: 20px auto;">
- 6. **Peredo, C.M.**, M.D. Uhen, and M.D. Nelson. 2018. A new kentriodontid (*Cetacea: Odontoceti*) from the early Miocene Astoria Formation and a revision of the stem delphinidan family Kentriodontidae. **Journal of Vertebrate Paleontology** 38:2, 1–18. Read Publication
+  6. **Peredo, C.M.**, M.D. Uhen, and M.D. Nelson. 2018. A new kentriodontid (*Cetacea: Odontoceti*) from the early Miocene Astoria Formation and a revision of the stem delphinidan family Kentriodontidae. **Journal of Vertebrate Paleontology** 38:2, 1–18. 
+  <a href="https://doi.org/10.1080/02724634.2017.1411357" style="color: #0070F0; text-decoration: none;">Read Publication</a>
   <div data-badge-popover="right" data-badge-type="1" data-doi="https://doi.org/10.1080/02724634.2017.1411357" data-hide-no-mentions="false" class="altmetric-embed"></div>
 </section>
 
 <!-- Publication 5 -->
 <section style="font-size: 1.2em; max-width: 800px; color: black; text-align: left; margin: 20px auto;">
-  5. Dewaele, L., **C.M. Peredo**, P. Meyvisch, and S. Louwye. 2018. Diversity of late Neogene Monachinae (Carnivora, Phocidae) from the North Atlantic, with the description of two new species. **Royal Society Open Science** 5, 172437. Read Publication
+  5. Dewaele, L., **C.M. Peredo**, P. Meyvisch, and S. Louwye. 2018. Diversity of late Neogene Monachinae (Carnivora, Phocidae) from the North Atlantic, with the description of two new species. **Royal Society Open Science** 5, 172437. 
+  <a href="https://doi.org/10.1098/rsos.172437" style="color: #0070F0; text-decoration: none;">Read Publication</a>
   <div data-badge-popover="right" data-badge-type="1" data-doi="https://doi.org/10.1098/rsos.172437" data-hide-no-mentions="false" class="altmetric-embed"></div>
 </section>
 
 <!-- Publication 4 -->
 <section style="font-size: 1.2em; max-width: 800px; color: black; text-align: left; margin: 20px auto;">
- 4. **Peredo, C.M.**, N.D. Pyenson, M.D. Uhen, and C.D. Marshall. 2017. Alveoli, teeth, and tooth loss: Understanding the homology of internal mandibular structures in mysticete cetaceans. **PLOS ONE** 12:5, 1–26. Read Publication
+  4. **Peredo, C.M.**, N.D. Pyenson, M.D. Uhen, and C.D. Marshall. 2017. Alveoli, teeth, and tooth loss: Understanding the homology of internal mandibular structures in mysticete cetaceans. **PLOS ONE** 12:5, 1–26. 
+  <a href="https://doi.org/10.1371/journal.pone.0178243" style="color: #0070F0; text-decoration: none;">Read Publication</a>
   <div data-badge-popover="right" data-badge-type="1" data-doi="https://doi.org/10.1371/journal.pone.0178243" data-hide-no-mentions="false" class="altmetric-embed"></div>
 </section>
 
 <!-- Publication 3 -->
 <section style="font-size: 1.2em; max-width: 800px; color: black; text-align: left; margin: 20px auto;">
- 3. **Peredo, C.M.**, N.D. Pyenson, and A.T. Boersma. 2017. Decoupling tooth loss from the evolution of baleen in whales. **Frontiers in Marine Science** 4:67, 1–11. Read Publication
+  3. **Peredo, C.M.**, N.D. Pyenson, and A.T. Boersma. 2017. Decoupling tooth loss from the evolution of baleen in whales. **Frontiers in Marine Science** 4:67, 1–11. 
+  <a href="https://doi.org/10.3389/fmars.2017.00067" style="color: #0070F0; text-decoration: none;">Read Publication</a>
   <div data-badge-popover="right" data-badge-type="1" data-doi="https://doi.org/10.3389/fmars.2017.00067" data-hide-no-mentions="false" class="altmetric-embed"></div>
 </section>
 
 <!-- Publication 2 -->
 <section style="font-size: 1.2em; max-width: 800px; color: black; text-align: left; margin: 20px auto;">
- 2. **Peredo, C.M.**, and M.D. Uhen. 2016. A new basal chaeomysticete (*Mammalia: Cetacea*) from the Late Oligocene Pysht Formation of Washington, USA. **Papers in Palaeontology** 2:4, 533–554. Read Publication
+ 2. **Peredo, C.M.**, and M.D. Uhen. 2016. A new basal chaeomysticete (*Mammalia: Cetacea*) from the Late Oligocene Pysht Formation of Washington, USA. **Papers in Palaeontology** 2:4, 533–554. 
+  <a href="https://doi.org/10.1002/spp2.1051" style="color: #0070F0; text-decoration: none;">Read Publication</a>
   <div data-badge-popover="right" data-badge-type="1" data-doi="https://doi.org/10.1002/spp2.1051" data-hide-no-mentions="false" class="altmetric-embed"></div>
 </section>
 
 <!-- Publication 1 -->
 <section style="font-size: 1.2em; max-width: 800px; color: black; text-align: left; margin: 20px auto;">
- 1. **Peredo, C.M.**, and M.D. Uhen. 2016. Exploration of marine mammal paleogeography in the Northern Hemisphere over the Cenozoic using beta diversity. **Palaeogeography, Palaeoclimatology, Palaeoecology** 449, 227–235. Read Publication
+ 1. **Peredo, C.M.**, and M.D. Uhen. 2016. Exploration of marine mammal paleogeography in the Northern Hemisphere over the Cenozoic using beta diversity. **Palaeogeography, Palaeoclimatology, Palaeoecology** 449, 227–235. 
+  <a href="https://doi.org/10.1016/j.palaeo.2016.02.034" style="color: #0070F0; text-decoration: none;">Read Publication</a>
   <div data-badge-popover="right" data-badge-type="1" data-doi="https://doi.org/10.1016/j.palaeo.2016.02.034" data-hide-no-mentions="false" class="altmetric-embed"></div>
 </section>
 
