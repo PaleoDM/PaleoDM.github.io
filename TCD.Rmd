@@ -113,28 +113,6 @@ output:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <footer style="background-color: #001731; color: white; text-align: center; padding: 20px;">
   ::: {style="display: flex; justify-content: space-between; max-width: 1200px; margin: 0 auto; align-items: center;"}
   [Project Inquiries](https://docs.google.com/forms/d/e/1FAIpQLSdxbH03CpaKTalBdizuW275xrO2VZ2KYM1sM98b5XTWRyxAhg/viewform?usp=header){style="color: white; text-decoration: none;"}
