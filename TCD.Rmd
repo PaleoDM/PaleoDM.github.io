@@ -19,7 +19,51 @@
 
 
 
-Coming Soon!
+<!-- Main Header Section -->
+<section style="display: flex; flex-direction: column; align-items: center; max-width: 1200px; margin: 40px auto;">
+  <h2 style="font-size: 2em; font-weight: bold; margin-bottom: 10px; color: #001731; text-align: center;">TAI CHUAN DO KARATE</h2>
+  <p style="font-size: 1.2em; max-width: 800px; color: black; margin-bottom: 30px; text-align: left; align-self: flex-start;">
+   Tai Chuan Do Karate was founded by Grand Master Ken Champ, on September 30, 2977. Grand Master Champ sought to combine the myriad of different styles into a combat art form that emphasized the grace and discipline of traditional martial styles with the combat utility of the fighting styles emerging in the 1970s. 
+  </p>
+</section>
+
+<!-- Image Below the Section -->
+<img src="Linked Files/hands.png" alt="Skull Thumbnail" style="display: block; margin: 20px auto; max-width: 100%; height: auto; border-radius: 10px;">
+
+<!-- Horizontal Line Divider as its own section -->
+<hr style="width: 100%; border: 1px solid #ccc; margin: 20px auto;">
+
+
+
+<!-- Subsection 1 Section -->
+<section style="display: flex; flex-direction: column; align-items: center; max-width: 1200px; margin: 40px auto;">
+  <h2 style="font-size: 2em; font-weight: bold; margin-bottom: 10px; color: #001731; text-align: center;">TAI CHUAN DO CODE OF ETHICS</h2>
+  <p style="font-size: 1.2em; max-width: 800px; color: black; margin-bottom: 30px; text-align: left; align-self: flex-start;">
+   As a martial artist, my fundamental duty is to serve GOD and MANKIND; to safeguard lives and property; to protect the innocent against deception; the weak against oppression or intimidation; the peaceful against violence or disorder; and to respect the Constitutional Rights of all men to liberty, equality, and justice. I promise, I will keep my private life unsullied as an example to all; maintain courageous calm in the face of danger, scorn, or ridicule; develop self-restraint; and be constantly mindful of the welfare of others, honest in thought and deed in my personal life. I will be exemplary in observing the laws of the land and the regulations of Tai Chuan Do Schools, respectful of the other students and instructors.<br> <br>
+   As a Tai Chuan Do student/instructor, I shall regard the discharge of my training. Recognizing my responsibilities as a trust; I shall study diligently and pay sincere attention to self improvement; shall strive to make the best possible application of science to the art of self-defense; and shall strive for effective leadership and personal happiness in the field of human relationships. I shall appreciate the importance and responsibility of my rank and training and hold it to the most honorable high standards.
+  </p>
+</section>
+
+<!-- Image Below the Section -->
+<img src="Linked Files/Symbol.jpg" alt="Skull Thumbnail" style="display: block; margin: 20px auto; max-width: 25%; height: auto; border-radius: 10px;">
+
+<!-- Horizontal Line Divider as its own section -->
+<hr style="width: 100%; border: 1px solid #ccc; margin: 20px auto;">
+
+
+
+<!-- Subsection 1 Section -->
+<section style="display: flex; flex-direction: column; align-items: center; max-width: 1200px; margin: 40px auto;">
+  <h2 style="font-size: 2em; font-weight: bold; margin-bottom: 10px; color: #001731; text-align: center;">SENSEI CARLOS MAURICIO PEREDO</h2>
+  <span style="font-size: 1.2em; font-weight: bold; color: #001731; text-align: left; align-self: flex-start;">4th degree black belt, Tai Chuan Do Karate</span>
+  <span style="font-size: 1.2em; font-weight: bold; color: #001731; text-align: left; align-self: flex-start;">3rd degree black belt, Hakutsuru-Tatsu Shorin-Ryu</span>
+  <span style="font-size: 1em; color: black; text-align: left; align-self: flex-start;">Sensei Carlos began his martial arts journey in 1999, training under Master Jeremy Ephraim. In the years since, Sensei Carlos has decicated himself to perfecting his craft and his mastery of Tai Chuan Do, while training broadly to better understand the origins and inspirations for the style. In 2017, he founded a dojo in Columbia, Maryland. Now living in Cincinnati, Sensei Carlos hopes to continue his martial arts journey by bringing Tai Chuan Do Ohio. </span>
+</section>
+
+
+
+<!-- Image Below the Section -->
+<img src="Linked Files/TCD Lineage.jpg" alt="Skull Thumbnail" style="display: block; margin: 20px auto; max-width: 100%; height: auto; border-radius: 10px;">
 
 
 
