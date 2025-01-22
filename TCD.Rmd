@@ -73,7 +73,7 @@ output:
       ABOUT TAI CHUAN DO
     </summary>
     <p style="margin: 10px 20px; font-size: 1em; color: black; text-align: left;">
-      Tai Chuan Do Karate was founded by Grand Master Ken Champ, on September 30, 2977. Grand Master Champ sought to combine the myriad of different styles into a combat art form that emphasized the grace and discipline of traditional martial styles with the combat utility of the fighting styles emerging in the 1970s.
+      Tai Chuan Do Karate was founded by Grand Master Ken Champ, on September 30, 1977. Grand Master Champ sought to combine the myriad of different styles into a combat art form that emphasized the grace and discipline of traditional martial styles with the combat utility of the fighting styles emerging in the 1970s.
     </p>
   </details>
 
