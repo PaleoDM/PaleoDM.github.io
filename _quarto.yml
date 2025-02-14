@@ -25,3 +25,7 @@ website:
         text: Google Scholar
       - href: https://docs.google.com/forms/d/e/1FAIpQLSeFxmpSRlH2oiHq5F6XDiFLehMtkKtf9iciqByCT1w2DkPVjA/viewform?usp=header
         text: Request Reference
+
+format:
+  html:
+    css: styles.css
