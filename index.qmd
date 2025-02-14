@@ -57,7 +57,7 @@ Looking to collaborate on a research project? Need help turning data into insigh
 ::: {style="display: flex; flex-direction: column; align-items: center;"}
 ### STORYTELLING
 
-![Storytelling Icon](Linked%20Files/website-icons_storytelling.jpg){width="200px"}\
+![Storytelling Icon](Linked%20Files/website-icons_Storytelling.jpg){width="200px"}\
 [LEARN MORE](Storytelling.qmd){.button}
 :::
 
