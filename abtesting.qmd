@@ -1,0 +1,102 @@
+---
+title: ""
+format:
+  html:
+    css: styles.css
+---
+
+# A/B PROTOTYPE TESTING
+
+![](Linked%20Files/AB%20Testing/Test%202.png){width="100%" style="border-radius:10px; margin: 20px auto; display: block;"}
+
+---
+
+# PROJECT OVERVIEW
+
+::: {style="max-width: 1200px; margin: 0 auto;"}
+
+### CLIENT  
+Code.org (computer science education nonprofit)  
+
+### GOAL
+Measure user performance for specific tasks across multiple different navigation prototypes.  
+
+### PRIMARY TOOLS
+R & RStudio, RMarkdown, Shiny  
+
+### BACKGROUND
+The client is redesigning their navigation to improve user performance across specific tasks. They have designed several navigation prototypes and conducted multiple rounds of user testing for each. The client needs insightful data analysis that converts data into actionable decision making.  
+
+### PRODUCT
+Our team helped the client formulate and test hypotheses to compare user performance across prototypes. We produced a data report that identified which prototypes performed best. Our work revealed critical patterns across user operating system and screen size. We consulted on design modifications to maximize the client’s desired metrics while minimizing error rates.  
+
+:::
+
+::: {style="display: flex; gap: 20px; max-width: 1200px; margin: 40px auto; justify-content: center;"}
+
+::: {style="flex: 1; text-align: center;"}
+![](Linked%20Files/AB%20Testing/Test%201.png){width="100%" style="max-width: 400px; height: auto; border-radius: 10px;"}
+:::
+
+::: {style="flex: 1; text-align: center;"}
+![](Linked%20Files/AB%20Testing/Test%202.png){width="100%" style="max-width: 400px; height: auto; border-radius: 10px;"}
+:::
+
+:::
+
+---
+
+# CHALLENGES AND SOLUTIONS
+
+<details>
+  <summary style="font-size: 1.2em; font-weight: bold; color: #001731; cursor: pointer; padding: 10px; background-color: #f7f7f7; border-radius: 5px;">
+    DATA OUTLIERS
+  </summary>
+  **The Challenge**: The client’s chosen user testing platform failed to identify key outliers, resulting in spurious preliminary conclusions.  
+  </br>
+  **The Solution**: We identified and removed notable outliers, transformed the data to bolster its statistical power, and consulted on other details of the experimental design to maximize the data’s utility.  
+</details>
+
+<details>
+  <summary style="font-size: 1.2em; font-weight: bold; color: #001731; cursor: pointer; padding: 10px; background-color: #f7f7f7; border-radius: 5px;">
+    DIVERSE SCREEN SIZES
+  </summary>
+  **The Challenge**: The users participating in the tests used a myriad of screen sizes and resolutions, including sizes which were not considered when designing the Navigation.  
+  </br>
+  **The Solution**: We tested for anomalous patterns across different screen sizes and identified key breakpoints where error rates jumped.  
+</details>
+
+
+::: {style="display: flex; gap: 20px; max-width: 1200px; margin: 40px auto; justify-content: center;"}
+
+::: {style="flex: 1; text-align: center;"}
+![Histogram](Linked%20Files/AB%20Testing/Outliers%20Histogram.png){width="100%" style="max-width: 400px; height: auto; border-radius: 10px;"}
+:::
+
+::: {style="flex: 1; text-align: center;"}
+![Operating Systems](Linked%20Files/AB%20Testing/Operating%20Systems.png){width="100%" style="max-width: 400px; height: auto; border-radius: 10px;"}
+:::
+
+:::
+
+---
+
+# NEXT STEPS
+
+<details>
+  <summary style="font-size: 1.2em; font-weight: bold; color: #001731; cursor: pointer; padding: 10px; background-color: #f7f7f7; border-radius: 5px;">
+    ADVISE THE CLIENT
+  </summary>
+  Our results demonstrate that users’ performance is significantly improved by Prototype E. We can confidently recommend Prototype E to the client if all other factors are equal.  
+</details>
+
+<details>
+  <summary style="font-size: 1.2em; font-weight: bold; color: #001731; cursor: pointer; padding: 10px; background-color: #f7f7f7; border-radius: 5px;">
+    IDENTIFY OTHER KPIs
+  </summary>
+  The user testing reports include other metrics of interest, such as a 1-5 rating of how intuitive the user found the prototype. We will further explore the data to identify additional patterns that may inform the client’s choice.  
+</details>
+
+
+![](Linked%20Files/AB%20Testing/Statistics.png){width="100%" style="border-radius:10px; margin: 20px auto; display: block;"}
+

@@ -1,0 +1,31 @@
+---
+title: ""
+format:
+  html:
+    css: styles.css
+---
+
+# STORYTELLING  
+
+Telling stories is one of the oldest forms of disseminating information, and it sits at the heart of the human experience. My research, teaching, and service all emphasize storytelling as a tool for crafting deep and intimate narratives. By telling stories, we build long-lasting, personal connections between our work and its core audience.  
+
+In pursuit of these efforts, I’ve collaborated to write and publish storytelling games for use in the classroom. These games facilitate education via narrative-based inquiry and discovery. Download a copy for free using the links below.  
+
+---
+
+# CRITTERS AND CATASTROPHES  
+
+A storytelling game for classroom education by Carlos Mauricio Peredo and Molly Peredo  
+
+The local forest is under threat by The Logging Corporation. Only you and your team of heroes stand in their way. The catch? You’re all woodland critters. The denizens of the forest are counting on you!  
+
+::: {style="text-align: center;"}
+[**DOWNLOAD PDF**](Linked%20Files/Critters_And_Catastrophes.pdf){.button target="_blank"}
+:::
+
+---
+
+# MORE GAMES COMING SOON  
+
+Check back soon for additional games! If you'd like to make a request, make an inquiry below!
+

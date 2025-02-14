@@ -1,0 +1,71 @@
+---
+title: ""
+format:
+  html:
+    css: styles.css
+---
+
+```{=html}
+<div style="position: relative; width: 100%; max-width: 100%; margin: 0 auto;">
+  <img src="Linked Files/Seattle Boat 2.jpg" style="width: 100%; height: auto; display: block;">
+  
+  <div style="
+    position: absolute; 
+    bottom: 5%;  
+    left: 5%;  
+    color: white; 
+    font-size: 2.5em; 
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.4);  
+    padding: 10px;
+    border-radius: 5px;">
+  
+    Dr. Carlos Mauricio Peredo  
+    <span style="font-size: 0.6em; display: block;">Senior Research Scientist<br>  
+    Western Governors University</span>
+
+  </div>
+</div>
+```
+
+
+</br> </br> Hi there!
+
+I'm a Senior Research Scientist and Paleontologist. My research aims to make clarity from chaos by focusing on data-driven decision making. I help academic, public, and private stakeholders make informed, evidence-based decisions to inform public and corporate policy.
+
+------------------------------------------------------------------------
+
+# WHAT WE DO
+
+Looking to collaborate on a research project? Need help turning data into insights? </br> Find out how we can work together:
+
+::::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; max-width: 800px; margin: 0 auto; text-align: center;"}
+::: {style="display: flex; flex-direction: column; align-items: center;"}
+### ACADEMIC RESEARCH
+
+![Research Icon](Linked%20Files/website-icons_Research.jpg){width="200px"}\
+[LEARN MORE](Research.qmd){.button}
+:::
+
+::: {style="display: flex; flex-direction: column; align-items: center;"}
+### DATA PORTFOLIO
+
+![Portfolio Icon](Linked%20Files/website-icons_Portfolio.jpg){width="200px"}\
+[LEARN MORE](Portfolio.qmd){.button}
+:::
+
+::: {style="display: flex; flex-direction: column; align-items: center;"}
+### STORYTELLING
+
+![Storytelling Icon](Linked%20Files/website-icons_storytelling.jpg){width="200px"}\
+[LEARN MORE](Storytelling.qmd){.button}
+:::
+
+::: {style="display: flex; flex-direction: column; align-items: center;"}
+### MARTIAL ARTS
+
+![Martial Arts Icon](Linked%20Files/website-icons_MartialArts.jpg){width="200px"}\
+[LEARN MORE](TCD.qmd){.button}
+:::
+:::::
+

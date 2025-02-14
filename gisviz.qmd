@@ -1,0 +1,88 @@
+---
+title: ""
+format:
+  html:
+    css: styles.css
+---
+
+# GEOSPATIAL VISUALIZATION ANALYSES
+
+![](Linked%20Files/Geospatial%20Gallery/Final%20Eckert%20Map.jpg){width="100%" style="border-radius:10px; margin: 20px auto; display: block;"}
+
+---
+
+# PROJECT OVERVIEW
+
+::: {style="display: flex; gap: 20px; max-width: 1200px; margin: 0 auto;"}
+
+::: {style="flex: 1; max-width: 50%;"}
+
+### CLIENT  
+Paleobiology Database  
+
+### GOAL  
+Develop a predictive model that forecasts the prevalence of marine mammal fossils across the globe.  
+
+### PRIMARY TOOLS  
+R & RStudio, GIS, Adobe Creative Suite  
+
+### BACKGROUND  
+The client is a non-governmental non-profit public resource for paleontological data. Their mission is to encourage and enable data-driven collaborative efforts that address large-scale paleobiological questions. The client requests a way to predict potential fossil localities to discover new fossils.  
+
+### PRODUCT  
+Our team developed a predictive model using marine mammals as study organisms. The model uses the geospatial coordinates of all known marine mammal fossils and identifies key geographic, environmental, and socioeconomic predictors of fossil localities. The model successfully forecasts locations with a high probability of yielding new fossil discoveries.  
+
+:::
+
+::: {style="flex: 1; max-width: 50%; text-align: center;"}
+![](Linked%20Files/Geospatial%20Gallery/arctic-results.jpg){width="100%" style="max-width: 400px; height: auto; border-radius: 10px;"}
+:::
+
+:::
+
+![](Linked%20Files/Geospatial%20Gallery/Alpha%20Diversity.jpg){width="100%" style="border-radius:10px; margin: 20px auto; display: block;"}
+
+---
+
+# CHALLENGES AND SOLUTIONS
+
+<details>
+  <summary style="font-size: 1.2em; font-weight: bold; color: #001731; cursor: pointer; padding: 10px; background-color: #f7f7f7; border-radius: 5px;">
+    DIFFERENT ORGANISMS
+  </summary>
+  **The Challenge**: Different groups of organisms have their distributions influenced by completely different factors.  
+  </br>
+  **The Solution**: Develop independent models based on organisms with similar ecologies and geographic distributions to avoid homogeneity of the model.  
+</details>
+
+<details>
+  <summary style="font-size: 1.2em; font-weight: bold; color: #001731; cursor: pointer; padding: 10px; background-color: #f7f7f7; border-radius: 5px;">
+    INHERENT BIAS
+  </summary>
+  **The Challenge**: Fossil distribution is heavily biased by socioeconomic factors, such as GDP, which do not reflect a true biological or geologic signal.  </br>
+  **The Solution**: Standardize the dataset for GDP and other socioeconomic factors to avoid implicit Northern Hemisphere bias.  
+</details>
+
+---
+
+![](Linked%20Files/Geospatial%20Gallery/Orig%20and%20Ext.jpg){width="100%" style="border-radius:10px; margin: 20px auto; display: block;"}
+
+---
+
+# NEXT STEPS  
+
+Now that we've delivered the model to the client, what's next?  
+
+<details>
+  <summary style="font-size: 1.2em; font-weight: bold; color: #001731; cursor: pointer; padding: 10px; background-color: #f7f7f7; border-radius: 5px;">
+    EXPAND THE SCOPE
+  </summary>
+  Marine mammals were an ideal starting point because their distribution is easily modeled to modern coastlines. Now, we can expand to other fossil groups, including terrestrial organisms.  
+</details>
+
+<details>
+  <summary style="font-size: 1.2em; font-weight: bold; color: #001731; cursor: pointer; padding: 10px; background-color: #f7f7f7; border-radius: 5px;">
+    UNITE DATASETS
+  </summary>
+  The distribution of fossils is just the first step. A major factor in being able to excavate fossils is the surface exposure of the bedrock. By combining our model with geologic maps from the USGS, we'll be able to forecast high-value localities for paleontologists to prospect.  
+</details>

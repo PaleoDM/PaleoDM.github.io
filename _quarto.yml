@@ -1,0 +1,27 @@
+project:
+  type: website
+
+website:
+  title: "DR. CARLOS MAURICIO PEREDO | "
+  navbar:
+    background: "#001731"
+    search: false  # 👈 Explicitly disable search
+    left:
+      - href: Research.qmd
+        text: RESEARCH
+      - href: Portfolio.qmd
+        text: PORTFOLIO
+      - href: Storytelling.qmd
+        text: STORYTELLING
+      - href: TCD.qmd
+        text: MARTIAL ARTS
+
+  page-footer:
+    background: "#001731"
+    center:
+      - href: https://docs.google.com/forms/d/e/1FAIpQLSdxbH03CpaKTalBdizuW275xrO2VZ2KYM1sM98b5XTWRyxAhg/viewform?usp=header
+        text: Project Inquiries
+      - href: https://scholar.google.com/citations?user=IZRnfS0AAAAJ&hl=en
+        text: Google Scholar
+      - href: https://docs.google.com/forms/d/e/1FAIpQLSeFxmpSRlH2oiHq5F6XDiFLehMtkKtf9iciqByCT1w2DkPVjA/viewform?usp=header
+        text: Request Reference

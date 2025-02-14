@@ -1,0 +1,34 @@
+---
+title: "blanktemplatepage"
+format: html
+---
+
+---
+
+<!-- HEADER with Name -->
+<header style="text-align: center; padding: 20px; background-color: #001731; color: white;">
+  <a href="index.html" style="color: white; text-decoration: none;">
+    <h1 style="margin: 0;">DR. CARLOS MAURICIO PEREDO</h1>
+  </a>
+</header>
+
+<nav style="background-color: #001731; padding: 10px; text-align: center;">
+  <a href="Research.html" style="margin: 0 15px; color: white;">RESEARCH</a>
+  <a href="Portfolio.html" style="margin: 0 15px; color: white;">PORTFOLIO</a>
+  <a href="Storytelling.html" style="margin: 0 15px; color: white;">STORYTELLING</a>
+  <a href="TCD.html" style="margin: 0 15px; color: white;">MARTIAL ARTS</a>
+</nav>
+
+
+
+Coming Soon!
+
+
+
+<footer style="background-color: #001731; color: white; text-align: center; padding: 20px;">
+  ::: {style="display: flex; justify-content: space-between; max-width: 1200px; margin: 0 auto; align-items: center;"}
+  [Project Inquiries](https://docs.google.com/forms/d/e/1FAIpQLSdxbH03CpaKTalBdizuW275xrO2VZ2KYM1sM98b5XTWRyxAhg/viewform?usp=header){style="color: white; text-decoration: none;"}
+  [Google Scholar](https://scholar.google.com/citations?user=IZRnfS0AAAAJ&hl=en){style="color: white; text-decoration: none;"}
+  [Request Reference](https://docs.google.com/forms/d/e/1FAIpQLSeFxmpSRlH2oiHq5F6XDiFLehMtkKtf9iciqByCT1w2DkPVjA/viewform?usp=header){style="color: white; text-decoration: none;"}
+</footer>
+

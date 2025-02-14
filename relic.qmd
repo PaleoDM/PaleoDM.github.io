@@ -1,0 +1,103 @@
+---
+title: ""
+format:
+  html:
+    css: styles.css
+---
+
+# THE RELIC: A DISCORD BOT
+
+![](Linked%20Files/RELIC%20bot/Bot3.png){width="100%" style="border-radius:10px; margin: 20px auto; display: block;"}
+
+---
+
+# PROJECT OVERVIEW
+
+::: {style="display: flex; gap: 20px; max-width: 1200px; margin: 0 auto;"}
+
+::: {style="flex: 1; max-width: 50%;"}
+### CLIENT 
+The Morbid Corvid (tabletop gaming Discord server)  
+
+### GOAL
+Create a Discord bot that allows users to query information from a Wiki.  
+
+### PRIMARY TOOLS
+Python & Jupyter Notebooks, Kaggle, Discord  
+
+### BACKGROUND
+The client runs a Discord server for users to gather and play tabletop games. These games often have complex rulesets, which are stored in a Wiki. The client would like users to be able to quickly query the Wiki for rules, rather than needing to leave Discord to search for the information themselves.  
+
+### PRODUCT
+Developed and launched a fully operational Discord bot (The RELIC) that links to the curated Wiki for each game’s rulesets. Users can call the bot with command inputs and receive the corresponding passage of the rules for quick reference.  
+:::
+
+::: {style="flex: 1; max-width: 50%; text-align: center;"}
+![](Linked%20Files/RELIC%20bot/Bot5.png){width="100%" style="max-width: 400px; height: auto; border-radius: 10px;"}  
+
+![](Linked%20Files/RELIC%20bot/Spellbook.png){width="100%" style="max-width: 400px; height: auto; border-radius: 10px;"}  
+
+![](Linked%20Files/RELIC%20bot/Cast%20a%20Spell.png){width="100%" style="max-width: 400px; height: auto; border-radius: 10px;"}  
+:::
+
+:::
+
+---
+
+# CHALLENGES AND SOLUTIONS
+
+<details>
+  <summary style="font-size: 1.2em; font-weight: bold; color: #001731; cursor: pointer; padding: 10px; background-color: #f7f7f7; border-radius: 5px;">
+    MULTIPLE GAME WIKIs
+  </summary>
+  **The Challenge**: The client’s rulesets are scattered across multiple different Wikis for each game.  
+  </br>
+  **The Solution**: Create a master Wiki that automatically pulls updates from the individual Wiki pages and can be queried individually by The RELIC Discord bot.  
+</details>
+
+<details>
+  <summary style="font-size: 1.2em; font-weight: bold; color: #001731; cursor: pointer; padding: 10px; background-color: #f7f7f7; border-radius: 5px;">
+    USER-SPECIFIC VERSIONING
+  </summary>
+  **The Challenge**: The client wants different groups of users to be able to modify a game’s rulesets to fit their specific needs.  
+  </br>
+  **The Solution**: Create game-specific Wikis and prompt the users to select their Wiki of choice when first engaging The RELIC bot. Users can then modify their Wikis as needed without pushing changes to the entire server.  
+</details>
+
+---
+
+::: {style="display: flex; gap: 20px; max-width: 1200px; margin: 40px auto; justify-content: center;"}
+
+::: {style="flex: 1; text-align: center;"}
+![](Linked%20Files/RELIC%20bot/Scout%20Ahead.png){width="100%" style="max-width: 400px; height: auto; border-radius: 10px;"}  
+:::
+
+::: {style="flex: 1; text-align: center;"}
+![](Linked%20Files/RELIC%20bot/Give%20Chase.png){width="100%" style="max-width: 400px; height: auto; border-radius: 10px;"}  
+:::
+
+:::
+
+---
+
+# NEXT STEPS  
+
+Now that The RELIC is operational, what's next?  
+
+<details>
+  <summary style="font-size: 1.2em; font-weight: bold; color: #001731; cursor: pointer; padding: 10px; background-color: #f7f7f7; border-radius: 5px;">
+    CLOUD HOSTING
+  </summary>
+  Hosting The RELIC on a cloud-based platform will ensure that the bot is always active, not just when a Discord moderator is available to host.  
+</details>
+
+<details>
+  <summary style="font-size: 1.2em; font-weight: bold; color: #001731; cursor: pointer; padding: 10px; background-color: #f7f7f7; border-radius: 5px;">
+    DICE ROLLER
+  </summary>
+  Tabletop games frequently employ dice rolling mechanics. Adding a dice rolling functionality keeps users from leaving the platform for other tools.  
+</details>
+
+---
+
+![](Linked%20Files/RELIC%20bot/Bot4.jpg){width="100%" style="border-radius:10px; margin: 20px auto; display: block;"}

@@ -1,0 +1,102 @@
+---
+title: ""
+format:
+  html:
+    css: styles.css
+---
+
+# MACHINE LEARNING COMPUTER VISION MODEL
+
+![](Linked%20Files/Skull%20Identifier%20Gallery/thumbnail.png){width="100%" style="border-radius:10px; margin: 20px auto; display: block;"}
+
+---
+
+# PROJECT OVERVIEW
+
+::: {style="display: flex; gap: 20px; max-width: 1200px; margin: 0 auto;"}
+
+::: {style="flex: 1; max-width: 50%;"}
+### CLIENT  
+Hefner Museum of Natural History  
+
+### GOAL
+Use AI to streamline the identification of museum specimens (mammal skulls) from photographs.  
+
+### PRIMARY TOOLS
+Python, FastAI, Gradio, HuggingFace  
+
+### BACKGROUND
+The client serves as a physical repository for tens of thousands of museum specimens, including hundreds of mammal skulls. These skulls occupy a large amount of physical space and pose unique storage challenges for the client. The client requires a solution for quickly identifying the type of skull in order to streamline its association with the relevant digital metadata.  
+
+###PRODUCT
+Our team developed a working prototype of a computer vision model powered by AI. The model received user input (photographs of mammal skulls) and correctly classifies them into mammalian Orders.  
+:::
+
+::: {style="flex: 1; max-width: 50%; text-align: center;"}
+![](Linked%20Files/Skull%20Identifier%20Gallery/Vertical.png){width="100%" style="max-width: 400px; height: auto; border-radius: 10px;"}
+:::
+
+:::
+
+---
+
+![](Linked%20Files/Skull%20Identifier%20Gallery/Horizontal.png){width="100%" style="border-radius:10px; margin: 20px auto; display: block;"}
+
+---
+
+# CHALLENGES AND SOLUTIONS
+
+<details>
+  <summary style="font-size: 1.2em; font-weight: bold; color: #001731; cursor: pointer; padding: 10px; background-color: #f7f7f7; border-radius: 5px;">
+    TRAINING DATA SETS
+  </summary>
+  **The Challenge**: The computer vision model (ResNet18) requires a sizeable library of training data.  
+  </br>
+  **The Solution**: Source photographs of mammal skulls from publicly available museum repositories available online, including the Smithsonian NMNH and the London NHM.
+</details>
+
+<details>
+  <summary style="font-size: 1.2em; font-weight: bold; color: #001731; cursor: pointer; padding: 10px; background-color: #f7f7f7; border-radius: 5px;">
+    ON THE MOVE
+  </summary>
+  **The Challenge**: The client needs a fast and agile tool that works in a collection space: often on the move and away from the office. 
+  </br>
+  **The Solution**: Design a feature-light, mobile-friendly prototype that accommodates user input directly from a mobile phone camera with minimal bloat.
+</details>
+
+<details>
+  <summary style="font-size: 1.2em; font-weight: bold; color: #001731; cursor: pointer; padding: 10px; background-color: #f7f7f7; border-radius: 5px;">
+    DIVERSE USE CASES
+  </summary>
+  **The Challenge**: The client has an uneven distribution of mammal skulls that span many different broad categories, but the majority fit into two large groups (artiodactyls and rodents).  
+  </br>
+  **The Solution**: Design the working prototype around these two large groups to ensure immediate utility, then expand the model and the web app to accommodate edge cases.
+</details>
+
+
+![](Linked%20Files/Skull%20Identifier%20Gallery/Code.png){width="100%" style="border-radius:10px; margin: 20px auto; display: block;"}
+
+---
+
+# NEXT STEPS
+
+<details>
+  <summary style="font-size: 1.2em; font-weight: bold; color: #001731; cursor: pointer; padding: 10px; background-color: #f7f7f7; border-radius: 5px;">
+    EXPAND THE SCOPE
+  </summary>
+  The Hefner Museum of Natural History is home to 27 of the 29 orders of mammals. We will source additional training images and expand the model to identify all 29 Orders.
+</details>
+
+<details>
+  <summary style="font-size: 1.2em; font-weight: bold; color: #001731; cursor: pointer; padding: 10px; background-color: #f7f7f7; border-radius: 5px;">
+    IMPROVE THE BASE MODEL
+  </summary>
+  We chose ResNet18 as a base model because it offers a compromise between accuracy and speed. This is ideal for fast iteration and testing. For the final product, we’ll sacrifice speed for improved accuracy.
+</details>
+
+<details>
+  <summary style="font-size: 1.2em; font-weight: bold; color: #001731; cursor: pointer; padding: 10px; background-color: #f7f7f7; border-radius: 5px;">
+    LINK THE METADATA
+  </summary>
+  The client has an extensive database of metadata associated with each specimen. The final version will access and display the metadata for the user to quickly reference information while in the collection.
+</details>

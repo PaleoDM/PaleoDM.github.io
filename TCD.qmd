@@ -1,0 +1,55 @@
+---
+title: ""
+format:
+  html:
+    css: styles.css
+---
+
+
+# TAI CHUAN DO KARATE  
+
+![](Linked%20Files/hands.png){width="25%" style="border-radius:10px; margin: 20px auto; display: block;"}
+
+
+# SENSEI CARLOS MAURICIO PEREDO  
+### 4th degree black belt, Tai Chuan Do Karate  
+### 3rd degree black belt, Hakutsuru-Tatsu Shorin-Ryu  
+
+<details>
+  <summary style="font-size: 1.2em; font-weight: bold; color: #001731; cursor: pointer; padding: 10px; background-color: #f7f7f7; border-radius: 5px;">
+    ABOUT SENSEI CARLOS
+  </summary>
+  Sensei Carlos began his martial arts journey in 1999, training under Master Jeremy Ephraim. In the years since, Sensei Carlos has dedicated himself to perfecting his craft and his mastery of Tai Chuan Do, while training broadly to better understand the origins and inspirations for the style. In 2017, he founded a dojo in Columbia, Maryland. Now living in Cincinnati, Sensei Carlos hopes to continue his martial arts journey by bringing Tai Chuan Do Ohio.
+</details>
+
+![](Linked%20Files/TCD%20Lineage.jpg){width="100%" style="border-radius:10px; margin: 20px auto; display: block;"}
+
+---
+
+# TAI CHUAN DO KARATE  
+
+<details>
+  <summary style="font-size: 1.2em; font-weight: bold; color: #001731; cursor: pointer; padding: 10px; background-color: #f7f7f7; border-radius: 5px;">
+    ABOUT TAI CHUAN DO
+  </summary>
+  Tai Chuan Do Karate was founded by Grand Master Ken Champ on September 30, 1977. Grand Master Champ sought to combine the myriad of different styles into a combat art form that emphasized the grace and discipline of traditional martial styles with the combat utility of the fighting styles emerging in the 1970s.
+</details>
+
+![](Linked%20Files/Symbol.jpg){width="5%" style="border-radius:10px; margin: 20px auto; display: block;"}
+
+---
+
+# CODE OF ETHICS  
+
+<details>
+  <summary style="font-size: 1.2em; font-weight: bold; color: #001731; cursor: pointer; padding: 10px; background-color: #f7f7f7; border-radius: 5px;">
+    READ THE CODE
+  </summary>
+  As a martial artist, my fundamental duty is to serve GOD and MANKIND; to safeguard lives and property; to protect the innocent against deception; the weak against oppression or intimidation; the peaceful against violence or disorder; and to respect the Constitutional Rights of all men to liberty, equality, and justice.  
+
+  I promise, I will keep my private life unsullied as an example to all; maintain courageous calm in the face of danger, scorn, or ridicule; develop self-restraint; and be constantly mindful of the welfare of others, honest in thought and deed in my personal life. I will be exemplary in observing the laws of the land and the regulations of Tai Chuan Do Schools, respectful of the other students and instructors.  
+
+  As a Tai Chuan Do student/instructor, I shall regard the discharge of my training. Recognizing my responsibilities as a trust; I shall study diligently and pay sincere attention to self-improvement; shall strive to make the best possible application of science to the art of self-defense; and shall strive for effective leadership and personal happiness in the field of human relationships. I shall appreciate the importance and responsibility of my rank and training and hold it to the most honorable high standards.
+</details>
+
+![](Linked%20Files/Symbol.jpg){width="5%" style="border-radius:10px; margin: 20px auto; display: block;"}
