@@ -5,31 +5,31 @@ format:
     css: styles.css
 ---
 
-# GEOSPATIAL VISUALIZATION ANALYSES
+# Geospatioal Visualization Analyses
 
 ![](Linked%20Files/Geospatial%20Gallery/Final%20Eckert%20Map.jpg){width="100%" style="border-radius:10px; margin: 20px auto; display: block;"}
 
 ---
 
-# PROJECT OVERVIEW
+# Project Overview
 
 ::: {style="display: flex; gap: 20px; max-width: 1200px; margin: 0 auto;"}
 
 ::: {style="flex: 1; max-width: 50%;"}
 
-### CLIENT  
+### Client  
 Paleobiology Database  
 
-### GOAL  
+### Goal  
 Develop a predictive model that forecasts the prevalence of marine mammal fossils across the globe.  
 
-### PRIMARY TOOLS  
+### Primary Tools  
 R & RStudio, GIS, Adobe Creative Suite  
 
-### BACKGROUND  
+### Background  
 The client is a non-governmental non-profit public resource for paleontological data. Their mission is to encourage and enable data-driven collaborative efforts that address large-scale paleobiological questions. The client requests a way to predict potential fossil localities to discover new fossils.  
 
-### PRODUCT  
+### Product  
 Our team developed a predictive model using marine mammals as study organisms. The model uses the geospatial coordinates of all known marine mammal fossils and identifies key geographic, environmental, and socioeconomic predictors of fossil localities. The model successfully forecasts locations with a high probability of yielding new fossil discoveries.  
 
 :::
@@ -44,7 +44,7 @@ Our team developed a predictive model using marine mammals as study organisms. T
 
 ---
 
-# CHALLENGES AND SOLUTIONS
+# Challenges and Solutions
 
 <details>
   <summary style="font-size: 1.2em; font-weight: bold; color: #001731; cursor: pointer; padding: 10px; background-color: #f7f7f7; border-radius: 5px;">
@@ -69,7 +69,7 @@ Our team developed a predictive model using marine mammals as study organisms. T
 
 ---
 
-# NEXT STEPS  
+# Next Steps  
 
 Now that we've delivered the model to the client, what's next?  
 

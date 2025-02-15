@@ -5,29 +5,29 @@ format:
     css: styles.css
 ---
 
-# A/B PROTOTYPE TESTING
+# A/B Prototype Testing
 
 ![](Linked%20Files/AB%20Testing/Test%202.png){width="100%" style="border-radius:10px; margin: 20px auto; display: block;"}
 
 ---
 
-# PROJECT OVERVIEW
+# Project Overview
 
 ::: {style="max-width: 1200px; margin: 0 auto;"}
 
-### CLIENT  
+### Client  
 Code.org (computer science education nonprofit)  
 
-### GOAL
+### Goal
 Measure user performance for specific tasks across multiple different navigation prototypes.  
 
-### PRIMARY TOOLS
+### Primary Tools
 R & RStudio, RMarkdown, Shiny  
 
-### BACKGROUND
+### Background
 The client is redesigning their navigation to improve user performance across specific tasks. They have designed several navigation prototypes and conducted multiple rounds of user testing for each. The client needs insightful data analysis that converts data into actionable decision making.  
 
-### PRODUCT
+### Product
 Our team helped the client formulate and test hypotheses to compare user performance across prototypes. We produced a data report that identified which prototypes performed best. Our work revealed critical patterns across user operating system and screen size. We consulted on design modifications to maximize the client’s desired metrics while minimizing error rates.  
 
 :::
@@ -46,7 +46,7 @@ Our team helped the client formulate and test hypotheses to compare user perform
 
 ---
 
-# CHALLENGES AND SOLUTIONS
+# Challenges and Solutions
 
 <details>
   <summary style="font-size: 1.2em; font-weight: bold; color: #001731; cursor: pointer; padding: 10px; background-color: #f7f7f7; border-radius: 5px;">
@@ -81,7 +81,7 @@ Our team helped the client formulate and test hypotheses to compare user perform
 
 ---
 
-# NEXT STEPS
+# Next Steps
 
 <details>
   <summary style="font-size: 1.2em; font-weight: bold; color: #001731; cursor: pointer; padding: 10px; background-color: #f7f7f7; border-radius: 5px;">

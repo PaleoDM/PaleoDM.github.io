@@ -1,3 +1,28 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Montserrat:wght@300;600&display=swap');
+
+/* Apply fonts */
+body {
+  font-family: "Montserrat", sans-serif; /* Body text */
+  color: black; /* Default dark gray text */
+  font-weight: 300;
+}
+
+/* Headers (h1, h2, h3) */
+h1, h2, h3 {
+  font-family: "Libre Baskerville", serif;
+  color: #001731; /* Keeps dark blue color */
+  font-weight: 400;
+
+}
+
+
+
+
+
+
+
+
 /* Set all headers (h1, h2, h3) to color #001731 */
 h1, h2, h3 {
   color: #001731; /* Dark blue */
@@ -17,23 +42,6 @@ h2 {
 
 h3 {
   text-align: left;
-}
-
-
-
-/* Import Google Fonts (Optional) */
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Montserrat:wght@300;600&display=swap');
-
-/* Apply fonts */
-body {
-  font-family: "Lora", serif; /* Body text */
-  color: black; /* Default dark gray text */
-}
-
-/* Headers (h1, h2, h3) */
-h1, h2, h3 {
-  font-family: "Montserrat", sans-serif;
-  color: #001731; /* Keeps dark blue color */
 }
 
 
@@ -60,17 +68,19 @@ h1, h2, h3 {
 }
 
 
-/* Make navbar links white */
+/* Apply header font to the navbar links */
 .navbar a {
-  color: white !important;
+  font-family: "Libre Baskerville", serif !important;
+  font-weight: 400; /* Uses the bold version */
+  color: white !important; /* Ensures navbar links stay white */
   text-decoration: none;
 }
 
-/* Ensure hover state remains white */
+/* Optional: Adjust hover effect */
 .navbar a:hover {
-  color: white !important;
-  text-decoration: underline; /* Optional: add an underline on hover */
+  text-decoration: underline;
 }
+
 
 
 

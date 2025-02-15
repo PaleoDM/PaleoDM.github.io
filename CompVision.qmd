@@ -5,30 +5,30 @@ format:
     css: styles.css
 ---
 
-# MACHINE LEARNING COMPUTER VISION MODEL
+# Machine Learning Computer Vision Model
 
 ![](Linked%20Files/Skull%20Identifier%20Gallery/thumbnail.png){width="100%" style="border-radius:10px; margin: 20px auto; display: block;"}
 
 ---
 
-# PROJECT OVERVIEW
+# Project Overview
 
 ::: {style="display: flex; gap: 20px; max-width: 1200px; margin: 0 auto;"}
 
 ::: {style="flex: 1; max-width: 50%;"}
-### CLIENT  
+### Client  
 Hefner Museum of Natural History  
 
-### GOAL
+### Goal
 Use AI to streamline the identification of museum specimens (mammal skulls) from photographs.  
 
-### PRIMARY TOOLS
+### Primary Tools
 Python, FastAI, Gradio, HuggingFace  
 
-### BACKGROUND
+### Background
 The client serves as a physical repository for tens of thousands of museum specimens, including hundreds of mammal skulls. These skulls occupy a large amount of physical space and pose unique storage challenges for the client. The client requires a solution for quickly identifying the type of skull in order to streamline its association with the relevant digital metadata.  
 
-###PRODUCT
+###Product
 Our team developed a working prototype of a computer vision model powered by AI. The model received user input (photographs of mammal skulls) and correctly classifies them into mammalian Orders.  
 :::
 
@@ -44,7 +44,7 @@ Our team developed a working prototype of a computer vision model powered by AI.
 
 ---
 
-# CHALLENGES AND SOLUTIONS
+# Challenges and Solutions
 
 <details>
   <summary style="font-size: 1.2em; font-weight: bold; color: #001731; cursor: pointer; padding: 10px; background-color: #f7f7f7; border-radius: 5px;">
@@ -78,7 +78,7 @@ Our team developed a working prototype of a computer vision model powered by AI.
 
 ---
 
-# NEXT STEPS
+# Next Steps
 
 <details>
   <summary style="font-size: 1.2em; font-weight: bold; color: #001731; cursor: pointer; padding: 10px; background-color: #f7f7f7; border-radius: 5px;">

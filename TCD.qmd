@@ -6,12 +6,12 @@ format:
 ---
 
 
-# TAI CHUAN DO KARATE  
+# Tai Chuan Do Karate  
 
 ![](Linked%20Files/hands.png){width="25%" style="border-radius:10px; margin: 20px auto; display: block;"}
 
 
-# SENSEI CARLOS MAURICIO PEREDO  
+# Sensei Carlos Mauricio Peredo  
 ### 4th degree black belt, Tai Chuan Do Karate  
 ### 3rd degree black belt, Hakutsuru-Tatsu Shorin-Ryu  
 
@@ -26,7 +26,7 @@ format:
 
 ---
 
-# TAI CHUAN DO KARATE  
+# Tai Chuan Do Karate  
 
 <details>
   <summary style="font-size: 1.2em; font-weight: bold; color: #001731; cursor: pointer; padding: 10px; background-color: #f7f7f7; border-radius: 5px;">
@@ -39,7 +39,7 @@ format:
 
 ---
 
-# CODE OF ETHICS  
+# Code of Ethics
 
 <details>
   <summary style="font-size: 1.2em; font-weight: bold; color: #001731; cursor: pointer; padding: 10px; background-color: #f7f7f7; border-radius: 5px;">

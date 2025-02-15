@@ -5,7 +5,7 @@ format:
     css: styles.css
 ---
 
-# ACADEMIC RESEARCH
+# Academic Research
 
 My research aims to make clarity from chaos by focusing on data-driven decision making. I help academic, public, and private stakeholders make informed, evidence-based decisions to inform public and corporate policy. My academic research primarily focuses in two key areas: understanding how changing earth systems drive major evolutionary chance over time; and (2) advancing equity goals and bridging equity gaps in higher education.
 
@@ -18,7 +18,7 @@ My research aims to make clarity from chaos by focusing on data-driven decision 
 ---
 
 
-# PUBLISHED RESEARCH PAPERS (20)
+# Published Papers (20)
 
 ::: {style="font-size: 1.2em; max-width: 800px; color: black; text-align: left; margin: 20px auto;"}
   20. Ramírez-Díaz, C., M.A. Kolmann, **Peredo, C.M.**, and V.H. Cruz-Escalona. 2024. Cranial musculature of batoids: A standardized nomenclature. **The Anatomical Record**. Early Access. <a href="https://doi.org/10.1002/ar.25527" style="color: #0070F0; text-decoration: none;">Read Publication</a>  

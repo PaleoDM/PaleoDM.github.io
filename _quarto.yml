@@ -3,11 +3,12 @@ project:
   output-dir: .
 
 website:
-  title: "DR. CARLOS MAURICIO PEREDO | "
   navbar:
     background: "#001731"
-    search: false  # 👈 Explicitly disable search
+    search: false
     left:
+      - href: index.qmd
+        text: HOME
       - href: Research.qmd
         text: RESEARCH
       - href: Portfolio.qmd

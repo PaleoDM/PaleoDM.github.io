@@ -5,30 +5,30 @@ format:
     css: styles.css
 ---
 
-# THE RELIC: A DISCORD BOT
+# The Relic: A Discord Bot
 
 ![](Linked%20Files/RELIC%20bot/Bot3.png){width="100%" style="border-radius:10px; margin: 20px auto; display: block;"}
 
 ---
 
-# PROJECT OVERVIEW
+# Project Overview
 
 ::: {style="display: flex; gap: 20px; max-width: 1200px; margin: 0 auto;"}
 
 ::: {style="flex: 1; max-width: 50%;"}
-### CLIENT 
+### Client 
 The Morbid Corvid (tabletop gaming Discord server)  
 
-### GOAL
+### Goal
 Create a Discord bot that allows users to query information from a Wiki.  
 
-### PRIMARY TOOLS
+### Primary Tools
 Python & Jupyter Notebooks, Kaggle, Discord  
 
-### BACKGROUND
+### Background
 The client runs a Discord server for users to gather and play tabletop games. These games often have complex rulesets, which are stored in a Wiki. The client would like users to be able to quickly query the Wiki for rules, rather than needing to leave Discord to search for the information themselves.  
 
-### PRODUCT
+### Product
 Developed and launched a fully operational Discord bot (The RELIC) that links to the curated Wiki for each game’s rulesets. Users can call the bot with command inputs and receive the corresponding passage of the rules for quick reference.  
 :::
 
@@ -44,7 +44,7 @@ Developed and launched a fully operational Discord bot (The RELIC) that links to
 
 ---
 
-# CHALLENGES AND SOLUTIONS
+# Challenges and Solutions
 
 <details>
   <summary style="font-size: 1.2em; font-weight: bold; color: #001731; cursor: pointer; padding: 10px; background-color: #f7f7f7; border-radius: 5px;">
@@ -80,7 +80,7 @@ Developed and launched a fully operational Discord bot (The RELIC) that links to
 
 ---
 
-# NEXT STEPS  
+# Next Steps  
 
 Now that The RELIC is operational, what's next?  
 
