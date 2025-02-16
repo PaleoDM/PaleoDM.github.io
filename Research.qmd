@@ -9,14 +9,19 @@ format:
 
 My research aims to make clarity from chaos by focusing on data-driven decision making. I help academic, public, and private stakeholders make informed, evidence-based decisions to inform public and corporate policy. My academic research primarily focuses in two key areas: understanding how changing earth systems drive major evolutionary chance over time; and (2) advancing equity goals and bridging equity gaps in higher education.
 
+</br>
+
 ::: {style="text-align: center;"}
 [ACADEMIC CV](Linked%20Files/Peredo,%20Carlos%20Mauricio%20CV.pdf){.button target="_blank"} [PROFESSIONAL RESUME](Linked%20Files/Peredo,%20Carlos%20Mauricio%20Resume.pdf){.button target="_blank"}
 :::
+
+</br>
 
 ![](Linked%20Files/Lab%20Overview.jpg){width="100%" style="border-radius:10px; margin: 20px auto; display: block;"}
 
 ---
 
+</br>
 
 # Published Papers (20)
 

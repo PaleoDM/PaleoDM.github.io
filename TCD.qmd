@@ -10,10 +10,12 @@ format:
 
 ![](Linked%20Files/hands.png){width="25%" style="border-radius:10px; margin: 20px auto; display: block;"}
 
+<br>
 
-# Sensei Carlos Mauricio Peredo  
-### 4th degree black belt, Tai Chuan Do Karate  
-### 3rd degree black belt, Hakutsuru-Tatsu Shorin-Ryu  
+### Sensei Carlos Mauricio Peredo  
+4th degree black belt, Tai Chuan Do Karate  
+3rd degree black belt, Hakutsuru-Tatsu Shorin-Ryu  
+
 
 <details>
   <summary style="font-size: 1.2em; font-weight: bold; color: #001731; cursor: pointer; padding: 10px; background-color: #f7f7f7; border-radius: 5px;">
@@ -22,15 +24,19 @@ format:
   Sensei Carlos began his martial arts journey in 1999, training under Master Jeremy Ephraim. In the years since, Sensei Carlos has dedicated himself to perfecting his craft and his mastery of Tai Chuan Do, while training broadly to better understand the origins and inspirations for the style. In 2017, he founded a dojo in Columbia, Maryland. Now living in Cincinnati, Sensei Carlos hopes to continue his martial arts journey by bringing Tai Chuan Do Ohio.
 </details>
 
+---
+
+<br>
+
+# Sensei Linneage
 ![](Linked%20Files/TCD%20Lineage.jpg){width="100%" style="border-radius:10px; margin: 20px auto; display: block;"}
 
 ---
 
-# Tai Chuan Do Karate  
 
 <details>
   <summary style="font-size: 1.2em; font-weight: bold; color: #001731; cursor: pointer; padding: 10px; background-color: #f7f7f7; border-radius: 5px;">
-    ABOUT TAI CHUAN DO
+    About Tai Chuan Do Karate
   </summary>
   Tai Chuan Do Karate was founded by Grand Master Ken Champ on September 30, 1977. Grand Master Champ sought to combine the myriad of different styles into a combat art form that emphasized the grace and discipline of traditional martial styles with the combat utility of the fighting styles emerging in the 1970s.
 </details>
@@ -39,11 +45,10 @@ format:
 
 ---
 
-# Code of Ethics
 
 <details>
   <summary style="font-size: 1.2em; font-weight: bold; color: #001731; cursor: pointer; padding: 10px; background-color: #f7f7f7; border-radius: 5px;">
-    READ THE CODE
+    Tai Chuan Do Code of Ethics
   </summary>
   As a martial artist, my fundamental duty is to serve GOD and MANKIND; to safeguard lives and property; to protect the innocent against deception; the weak against oppression or intimidation; the peaceful against violence or disorder; and to respect the Constitutional Rights of all men to liberty, equality, and justice.  
 
