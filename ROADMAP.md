@@ -29,13 +29,13 @@
 
 **Success**: All pages share nav + footer, correct fonts load, dark theme applies, site is live at www.peredocm.com.
 
-## Phase 3: Home Page
-- [ ] Hero section with Seattle boat image + text overlay
-- [ ] Intro paragraph
-- [ ] 4-card section grid (Research, Portfolio, Storytelling, Martial Arts) with icons
-- [ ] Button component (blue #0070F0, pill shape, hover darkens + scale)
+## Phase 3: Home Page — COMPLETE
+- [x] Text-forward intro section (career arc, no hero photo)
+- [x] 5-card section grid (Portfolio, Publications, Research, Martial Arts, Storytelling)
+- [x] SectionCard component with teal hover states
+- [x] Section cards data in src/data/sectionCards.ts
 
-**Success**: Home page renders hero, intro, and 4 clickable section cards.
+**Success**: Home page renders text-forward intro and 5 clickable section cards.
 
 ## Phase 4: Research Page
 - [ ] Structured publications data in src/data/publications.ts (23 papers)
