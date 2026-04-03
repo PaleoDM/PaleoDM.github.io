@@ -2,9 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title: "AI Room Style Visualizer — Dr. Carlos M. Peredo",
+  title: "Albert Portal — Dr. Carlos M. Peredo",
   description:
-    "Full-stack AI app that generates photorealistic room redesigns from a single photo in under 60 seconds.",
+    "Full-stack construction management portal with AI-powered design visualization and client-facing dashboards.",
 };
 
 export default function DesignAppPage() {
@@ -22,23 +22,23 @@ export default function DesignAppPage() {
           Case Study
         </p>
         <h1 className="mt-3 text-3xl md:text-4xl font-semibold text-text-primary leading-tight">
-          AI-Powered Room Style Visualizer
+          Albert Portal
         </h1>
         <p className="mt-4 text-text-secondary leading-relaxed">
-          Upload a room photo, pick a design style, and see photorealistic AI
-          renders in under 60 seconds.
+          A full-stack construction management portal with AI-powered design
+          visualization and client-facing dashboards.
         </p>
         <div className="mt-4 flex flex-wrap gap-2">
           {[
-            "React",
+            "React 19",
             "Vite",
             "TypeScript",
-            "Express",
+            "Express 5",
             "Azure AI Foundry",
             "gpt-image-1.5",
-            "FLUX.1-Kontext-pro",
-            "Puppeteer",
-            "Sharp",
+            "GPT-5.2 Vision",
+            "React Router",
+            "Multer",
             "Node.js",
           ].map((tag) => (
             <span
@@ -56,13 +56,14 @@ export default function DesignAppPage() {
           The Challenge
         </h2>
         <p className="mt-4 text-text-secondary leading-relaxed">
-          High-end residential remodelers struggle to help clients visualize what
-          a redesigned room will actually look like. Mood boards and material
-          samples only go so far — clients need to see their room transformed,
-          not a generic stock photo. The hard part was making AI-generated
-          renders convincing enough to use in a live client consultation, while
-          preserving the room&apos;s actual architecture (walls, windows, doors,
-          proportions).
+          High-end residential remodelers manage million-dollar projects across
+          dozens of subcontractors, but their clients have zero visibility into
+          progress, budget, or design direction. The remodeler needed a single
+          tool where staff could manage the full project lifecycle — subs,
+          budgets, progress updates, AI room renders — while selectively
+          publishing a curated view to clients. The hard part was building dual
+          visibility: staff see everything, clients see only what&apos;s been
+          approved for sharing, all controlled by simple toggles.
         </p>
       </section>
 
@@ -71,21 +72,22 @@ export default function DesignAppPage() {
           The Approach
         </h2>
         <p className="mt-4 text-text-secondary leading-relaxed">
-          I built a full-stack web app where a remodeler uploads a room photo,
-          selects from a curated library of design styles (Island Chic, Japandi,
-          Warm Industrial, etc.), and gets back 2–3 photorealistic variations of
-          that room in the chosen style. The core of the system is a style prompt
-          library — each style is a carefully crafted transformation instruction
-          that tells the AI model exactly what materials, colors, lighting, and
-          furniture to apply while anchoring the room&apos;s original layout.
+          I built a dual-portal system — a staff dashboard and a PIN-gated
+          client portal — backed by a shared data layer with publish/draft
+          controls on every piece of content. Staff manage projects across six
+          tabs: overview, subcontractors, budget, Design Studio, blueprints, and
+          progress timeline. The Design Studio integrates Azure AI
+          Foundry&apos;s gpt-image-1.5 to transform uploaded room photos into
+          styled renders across five curated design styles.
         </p>
         <p className="mt-4 text-text-secondary leading-relaxed">
-          Both gpt-image-1.5 and FLUX.1-Kontext-pro are wired up through Azure
-          AI Foundry with a UI toggle so the remodeler can A/B compare models per
-          render. Variations are generated via parallel API calls, and the app
-          includes a one-click PDF deck generator (Puppeteer, server-side) so the
-          remodeler walks out of the consultation with a branded before/after
-          leave-behind.
+          A Blueprint Intelligence feature uses GPT vision to analyze uploaded
+          floor plans, extract rooms with square footage estimates, and import
+          them directly into the project budget. On the client side, a 4-digit
+          PIN unlocks a read-only portal showing only published renders, progress
+          updates, and a filtered budget that hides internal markup and overhead
+          lines. Two seed projects with realistic Naples/Miami luxury renovation
+          data make the demo immediately compelling.
         </p>
       </section>
 
@@ -93,7 +95,7 @@ export default function DesignAppPage() {
         <div className="rounded-lg border border-surface-border overflow-hidden">
           <Image
             src="/assets/images/portfolio/design-app/design-app-projects.png"
-            alt="Project dashboard showing active builds with budgets, timelines, and subcontractor counts"
+            alt="Staff dashboard showing active projects with status badges, contract values, and subcontractor counts"
             width={1200}
             height={675}
             unoptimized
@@ -101,8 +103,8 @@ export default function DesignAppPage() {
           />
         </div>
         <p className="mt-2 font-mono text-xs text-text-tertiary">
-          Project dashboard — active builds with budgets, timelines, and
-          subcontractor tracking
+          Staff dashboard — project grid with status badges, contract values,
+          timelines, and subcontractor counts
         </p>
       </section>
 
@@ -127,7 +129,7 @@ export default function DesignAppPage() {
         <div className="rounded-lg border border-surface-border overflow-hidden">
           <Image
             src="/assets/images/portfolio/design-app/design-app-studio.png"
-            alt="Design Studio showing AI-generated room renders in different styles with publish workflow"
+            alt="Design Studio showing AI-generated room renders with style selection and publish workflow"
             width={1200}
             height={675}
             unoptimized
@@ -147,39 +149,38 @@ export default function DesignAppPage() {
         <ul className="mt-4 space-y-4">
           <li className="border-l-2 border-brand-200 pl-4">
             <p className="font-medium text-text-primary">
-              Sub-60-second render pipeline
+              Dual-portal architecture
             </p>
             <p className="mt-1 text-sm text-text-secondary leading-relaxed">
-              2–3 photorealistic variations generated in parallel from a single
-              room photo.
+              Staff see full project data; clients see only published content,
+              controlled per-item with a single toggle.
             </p>
           </li>
           <li className="border-l-2 border-brand-200 pl-4">
             <p className="font-medium text-text-primary">
-              Dual-model A/B comparison
+              AI Design Studio
             </p>
             <p className="mt-1 text-sm text-text-secondary leading-relaxed">
-              gpt-image-1.5 and FLUX.1-Kontext-pro running side-by-side,
-              selectable per request, letting us validate which model produces
-              more convincing results.
+              Upload a room photo, select a style, get a photorealistic render in
+              under 60 seconds, then publish it to the client portal.
             </p>
           </li>
           <li className="border-l-2 border-brand-200 pl-4">
             <p className="font-medium text-text-primary">
-              Zero-design-effort PDF decks
+              Blueprint-to-budget pipeline
             </p>
             <p className="mt-1 text-sm text-text-secondary leading-relaxed">
-              Automated before/after leave-behind generated server-side, ready to
-              hand a client in seconds.
+              Upload a floor plan, AI extracts rooms and square footage, one
+              click imports scope items into the project budget.
             </p>
           </li>
           <li className="border-l-2 border-brand-200 pl-4">
             <p className="font-medium text-text-primary">
-              Blueprint Intelligence feature
+              Zero-auth client access
             </p>
             <p className="mt-1 text-sm text-text-secondary leading-relaxed">
-              Floor plan upload with GPT vision-powered room extraction, editable
-              scope lists, and budget import for full project planning.
+              PIN-gated portal with a copyable share link, no accounts or
+              passwords needed.
             </p>
           </li>
         </ul>
