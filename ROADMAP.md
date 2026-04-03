@@ -25,7 +25,7 @@
 - [x] Footer component (Google Scholar, Project Inquiries, Request Reference links)
 - [x] Global typography (Libre Baskerville headers, Montserrat body via Google Fonts)
 - [x] Tailwind v4 design tokens in globals.css (@theme directive)
-- [ ] Deploy to GitHub Pages, verify CNAME works
+- [x] Deploy to GitHub Pages, verify CNAME works
 
 **Success**: All pages share nav + footer, correct fonts load, dark theme applies, site is live at www.peredocm.com.
 

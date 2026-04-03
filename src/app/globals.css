@@ -1,19 +1,38 @@
 @import "tailwindcss";
 
 @theme {
-  --color-navy: #001731;
-  --color-accent: #0070F0;
-  --color-accent-hover: #005BB5;
+  /* Brand — muted teal, not purple, not electric */
+  --color-brand-50:  #f0f7f7;
+  --color-brand-100: #d4eaeb;
+  --color-brand-200: #a8d5d6;
+  --color-brand-300: #6fb5b7;
+  --color-brand-400: #3d9295;
+  --color-brand-500: #2a7a7d;
+  --color-brand-600: #1f5f61;
+  --color-brand-700: #174849;
+  --color-brand-800: #0f3132;
+  --color-brand-900: #081a1b;
 
-  --font-heading: "Libre Baskerville", serif;
-  --font-body: "Montserrat", sans-serif;
+  /* Text */
+  --color-text-primary:   #1a1a2e;
+  --color-text-secondary: #4a4a5a;
+  --color-text-tertiary:  #7a7a8a;
+
+  /* Surfaces */
+  --color-surface-primary:   #ffffff;
+  --color-surface-secondary: #f8f9fa;
+  --color-surface-border:    #e2e4e8;
+
+  /* Fonts */
+  --font-sans:  "Inter", sans-serif;
+  --font-mono:  "JetBrains Mono", monospace;
 }
 
 body {
-  @apply bg-navy text-white;
-  font-family: var(--font-body);
+  @apply bg-surface-primary text-text-primary;
+  font-family: var(--font-sans);
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-heading);
+  font-family: var(--font-sans);
 }

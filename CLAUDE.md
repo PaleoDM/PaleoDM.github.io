@@ -14,13 +14,14 @@ Personal website for Dr. Carlos Mauricio Peredo
 - **Package manager**: npm
 
 ## Design System
-- **Primary background**: #001731 (dark navy)
-- **Accent / buttons**: #0070F0 (blue)
-- **Button hover**: #005BB5
-- **Header font**: Libre Baskerville (400, 700)
-- **Body font**: Montserrat (300, 600)
-- **Theme**: Dark, clean, techy
-- **Forbidden**: Gradient backgrounds, blog features, gradient text effects, decorative gradients of any kind
+- **Theme**: Light, clean, subtly techy. White backgrounds, near-black text, muted teal accent.
+- **Background**: #ffffff (white primary), #f8f9fa (light gray secondary/cards)
+- **Text**: #1a1a2e (primary), #4a4a5a (secondary), #7a7a8a (tertiary)
+- **Accent (brand)**: Muted teal — #3d9295 (links/hover), #2a7a7d (darker), full scale from brand-50 to brand-900
+- **Borders**: #e2e4e8
+- **Body font**: Inter (400, 500, 600)
+- **Mono accent font**: JetBrains Mono (400, 500) — used for labels, tags, dates, footer links
+- **Forbidden**: Gradient backgrounds, blog features, gradient text effects, dark themes, purple anything, "vibe coded" aesthetics, hero photo bars, particle effects
 
 ## Architecture Rules
 1. All pages use App Router file-system routing under `src/app/`
@@ -58,15 +59,12 @@ Phase 3: Home Page (next up)
 ## Sections
 | Route | Content |
 |-------|---------|
-| `/` | Home — hero image, intro, 4 section cards |
-| `/research` | 23 publications with DOI links + Altmetric badges |
-| `/portfolio` | Grid of 4 case study cards |
-| `/portfolio/comp-vision` | AI Skull Identifier case study |
-| `/portfolio/ab-testing` | A/B Prototype Testing case study |
-| `/portfolio/relic-bot` | RELIC Bot case study |
-| `/portfolio/geospatial` | Geospatial Analyses case study |
-| `/storytelling` | Storytelling section |
-| `/martial-arts` | Tai Chuan Do / TCD section |
+| `/` | Landing page — text-forward intro, career arc, section cards |
+| `/portfolio` | AI product portfolio (collaborative build) |
+| `/publications` | Filterable list of publications — data-driven from src/data/publications.ts |
+| `/research` | Scientific background — biographical, not programmatic |
+| `/martial-arts` | Tai Chuan Do — dojo, lineage, philosophy, code of ethics |
+| `/storytelling` | Gateway — World of Astoria (D&D) + educational games |
 
 ## Footer Links
 - Google Scholar: https://scholar.google.com/citations?user=IZRnfS0AAAAJ&hl=en

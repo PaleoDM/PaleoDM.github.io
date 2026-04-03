@@ -3,19 +3,20 @@ import { MobileMenu } from "./MobileMenu";
 
 const navLinks = [
   { href: "/", label: "Home" },
-  { href: "/research", label: "Research" },
   { href: "/portfolio", label: "Portfolio" },
-  { href: "/storytelling", label: "Storytelling" },
+  { href: "/publications", label: "Publications" },
+  { href: "/research", label: "Research" },
   { href: "/martial-arts", label: "Martial Arts" },
+  { href: "/storytelling", label: "Storytelling" },
 ];
 
 export function Navbar() {
   return (
-    <nav className="relative bg-navy border-b border-white/10 px-6 py-4">
+    <nav className="relative bg-surface-primary border-b border-surface-border px-6 py-4">
       <div className="max-w-6xl mx-auto flex items-center justify-between">
         <Link
           href="/"
-          className="font-heading text-xl font-bold text-white hover:text-accent transition-colors"
+          className="text-xl font-semibold text-text-primary hover:text-brand-500 transition-colors"
         >
           Dr. Carlos M. Peredo
         </Link>
@@ -25,7 +26,7 @@ export function Navbar() {
             <li key={link.href}>
               <Link
                 href={link.href}
-                className="font-heading text-sm text-gray-300 hover:text-white transition-colors"
+                className="text-sm font-medium text-text-secondary hover:text-brand-500 transition-colors"
               >
                 {link.label}
               </Link>
