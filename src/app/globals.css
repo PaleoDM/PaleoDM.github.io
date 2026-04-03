@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+@theme {
+  --color-navy: #001731;
+  --color-accent: #0070F0;
+  --color-accent-hover: #005BB5;
+
+  --font-heading: "Libre Baskerville", serif;
+  --font-body: "Montserrat", sans-serif;
+}
+
+body {
+  @apply bg-navy text-white;
+  font-family: var(--font-body);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}

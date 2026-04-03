@@ -41,15 +41,15 @@ Personal website for Dr. Carlos Mauricio Peredo
 - `public/CNAME` ensures custom domain survives deployment
 
 ## Current Phase
-Phase 2: Layout Shell (next up)
+Phase 3: Home Page (next up)
 
 ## Phase Status
 | Phase | Name | Status |
 |-------|------|--------|
 | 0 | Archive & Clean Slate | Complete |
 | 1 | Next.js Scaffold | Complete |
-| 2 | Layout Shell | Next |
-| 3 | Home Page | Pending |
+| 2 | Layout Shell | Complete |
+| 3 | Home Page | Next |
 | 4 | Research Page | Pending |
 | 5 | Portfolio Section | Pending |
 | 6 | Remaining Sections | Pending |

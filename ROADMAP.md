@@ -19,12 +19,12 @@
 
 **Success**: `npm run build` produces `out/` with all routes, CNAME, and assets.
 
-## Phase 2: Layout Shell
-- [ ] Root layout with dark navy theme (#001731)
-- [ ] Navbar component (Libre Baskerville, white links, responsive hamburger on mobile)
-- [ ] Footer component (Google Scholar, Project Inquiries, Request Reference links)
-- [ ] Global typography (Libre Baskerville headers, Montserrat body via Google Fonts)
-- [ ] Tailwind v4 design tokens in globals.css (@theme directive)
+## Phase 2: Layout Shell — COMPLETE
+- [x] Root layout with dark navy theme (#001731)
+- [x] Navbar component (Libre Baskerville, white links, responsive hamburger on mobile)
+- [x] Footer component (Google Scholar, Project Inquiries, Request Reference links)
+- [x] Global typography (Libre Baskerville headers, Montserrat body via Google Fonts)
+- [x] Tailwind v4 design tokens in globals.css (@theme directive)
 - [ ] Deploy to GitHub Pages, verify CNAME works
 
 **Success**: All pages share nav + footer, correct fonts load, dark theme applies, site is live at www.peredocm.com.
