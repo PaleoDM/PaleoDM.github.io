@@ -42,7 +42,7 @@ Personal website for Dr. Carlos Mauricio Peredo
 - `public/CNAME` ensures custom domain survives deployment
 
 ## Current Phase
-Phase 4: Research Page (next up)
+Phase 5: Portfolio Section (next up)
 
 ## Phase Status
 | Phase | Name | Status |
@@ -51,7 +51,7 @@ Phase 4: Research Page (next up)
 | 1 | Next.js Scaffold | Complete |
 | 2 | Layout Shell | Complete |
 | 3 | Home Page | Complete |
-| 4 | Research Page | Pending |
+| 4 | Publications Page | Complete |
 | 5 | Portfolio Section | Pending |
 | 6 | Remaining Sections | Pending |
 | 7 | Polish & Deploy | Pending |
@@ -62,7 +62,7 @@ Phase 4: Research Page (next up)
 | `/` | Landing page — text-forward intro, career arc, section cards |
 | `/portfolio` | AI product portfolio (collaborative build) |
 | `/publications` | Filterable list of publications — data-driven from src/data/publications.ts |
-| `/research` | Scientific background — biographical, not programmatic |
+| `/research` | Redirects to /publications (merged in Phase 4) |
 | `/martial-arts` | Tai Chuan Do — dojo, lineage, philosophy, code of ethics |
 | `/storytelling` | Gateway — World of Astoria (D&D) + educational games |
 

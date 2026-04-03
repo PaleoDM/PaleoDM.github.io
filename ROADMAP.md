@@ -37,12 +37,14 @@
 
 **Success**: Home page renders text-forward intro and 5 clickable section cards.
 
-## Phase 4: Research Page
-- [ ] Structured publications data in src/data/publications.ts (23 papers)
-- [ ] Publication list component (DOI links, bold author name)
-- [ ] Altmetric badge integration (script + embed divs)
-- [ ] CV and Resume download buttons
-- [ ] Lab overview image
+## Phase 4: Publications Page — COMPLETE
+- [x] Structured publications data in src/data/publications.ts (23 papers)
+- [x] Publication list component (DOI links, bold author name)
+- [x] Altmetric badge integration (script + embed divs)
+- [x] CV and Resume download buttons
+- [x] Search and year filter
+- [x] Merged Research into Publications — /research redirects to /publications
+- [x] Removed Research from Navbar
 
 **Success**: All 23 publications render with working DOI links and Altmetric badges.
 

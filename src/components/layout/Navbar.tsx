@@ -5,7 +5,6 @@ const navLinks = [
   { href: "/", label: "Home" },
   { href: "/portfolio", label: "Portfolio" },
   { href: "/publications", label: "Publications" },
-  { href: "/research", label: "Research" },
   { href: "/martial-arts", label: "Martial Arts" },
   { href: "/storytelling", label: "Storytelling" },
 ];
