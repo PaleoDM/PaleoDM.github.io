@@ -1,5 +1,5 @@
 import Script from "next/script";
-import { publications, articleCount, reportCount } from "@/data/publications";
+import { publications, articleCount, reportCount, whitepaperCount } from "@/data/publications";
 import { PublicationList } from "@/components/ui/PublicationList";
 
 export const metadata = {
@@ -24,7 +24,9 @@ export default function PublicationsPage() {
           Research &amp; Publications
         </h1>
         <p className="mt-4 text-text-secondary leading-relaxed">
-          {articleCount} Peer Reviewed Research | {reportCount} Institutional Reports | 0 White Papers
+          {articleCount} Peer Reviewed Research | {reportCount} Institutional{" "}
+          {reportCount === 1 ? "Report" : "Reports"} | {whitepaperCount} White{" "}
+          {whitepaperCount === 1 ? "Paper" : "Papers"}
         </p>
       </section>
 

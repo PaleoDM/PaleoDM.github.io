@@ -17,13 +17,18 @@ function boldAuthorName(authors: string): React.ReactNode {
   );
 }
 
+const typeLabels: Record<string, string> = {
+  report: "Institutional Report",
+  whitepaper: "White Paper",
+};
+
 function PublicationCard({ pub }: { pub: Publication }) {
-  const linkHref =
-    pub.type === "report" && pub.href
-      ? pub.href
-      : pub.doi
-        ? `https://doi.org/${pub.doi}`
-        : undefined;
+  const isInternal = pub.type === "whitepaper";
+  const linkHref = pub.href
+    ? pub.href
+    : pub.doi
+      ? `https://doi.org/${pub.doi}`
+      : undefined;
 
   return (
     <article className="group rounded-lg border border-surface-border bg-surface-secondary p-5 transition-colors hover:border-brand-400 hover:bg-brand-50">
@@ -31,9 +36,9 @@ function PublicationCard({ pub }: { pub: Publication }) {
         <div className="min-w-0 flex-1">
           <div className="flex items-center gap-2">
             <p className="font-mono text-xs text-text-tertiary">{pub.year}</p>
-            {pub.type === "report" && (
+            {pub.type !== "article" && typeLabels[pub.type] && (
               <span className="font-mono text-xs text-brand-500 bg-brand-50 border border-brand-200 rounded px-1.5 py-0.5">
-                Institutional Report
+                {typeLabels[pub.type]}
               </span>
             )}
           </div>
@@ -41,8 +46,7 @@ function PublicationCard({ pub }: { pub: Publication }) {
             {linkHref ? (
               <a
                 href={linkHref}
-                target="_blank"
-                rel="noopener noreferrer"
+                {...(isInternal ? {} : { target: "_blank", rel: "noopener noreferrer" })}
                 className="text-text-primary hover:text-brand-500 transition-colors"
               >
                 {pub.title}

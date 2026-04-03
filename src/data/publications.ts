@@ -1,4 +1,4 @@
-export type PublicationType = "article" | "report";
+export type PublicationType = "article" | "report" | "whitepaper";
 
 export interface Publication {
   id: number;
@@ -15,6 +15,16 @@ export interface Publication {
 }
 
 export const publications: Publication[] = [
+  {
+    id: 26,
+    type: "whitepaper",
+    authors: "Peredo, C.M.",
+    year: 2026,
+    title: "Targeted Universalism and the Distribution of Financial Aid Across the Student Lifecycle: Evidence from a Large Online University",
+    journal: "White Paper",
+    href: "/publications/targeted-universalism-financial-aid",
+    tags: ["financial aid", "equity", "targeted universalism", "student success"],
+  },
   {
     id: 25,
     type: "report",
@@ -321,3 +331,4 @@ export const publicationYears = [...new Set(publications.map((p) => p.year))].so
 /** Counts by type */
 export const articleCount = publications.filter((p) => p.type === "article").length;
 export const reportCount = publications.filter((p) => p.type === "report").length;
+export const whitepaperCount = publications.filter((p) => p.type === "whitepaper").length;
