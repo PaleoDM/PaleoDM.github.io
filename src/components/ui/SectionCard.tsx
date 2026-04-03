@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { SectionCardData } from "@/data/sectionCards";
 
-export function SectionCard({ title, description, href }: SectionCardData) {
+export function SectionCard({ title, description, cta, href }: SectionCardData) {
   return (
     <Link
       href={href}
@@ -13,9 +13,9 @@ export function SectionCard({ title, description, href }: SectionCardData) {
       <p className="mt-2 text-sm text-text-secondary leading-relaxed">
         {description}
       </p>
-      <span className="mt-4 inline-block font-mono text-sm text-brand-500">
-        Explore &rarr;
-      </span>
+      <p className="mt-3 font-mono text-sm text-brand-500">
+        {cta} &rarr;
+      </p>
     </Link>
   );
 }
