@@ -3,8 +3,8 @@ import { sectionCards } from "@/data/sectionCards";
 
 export default function Home() {
   return (
-    <div className="max-w-6xl mx-auto px-6 py-16 md:py-24">
-      <section className="max-w-2xl">
+    <div className="max-w-6xl mx-auto px-6 py-10 md:py-16">
+      <section className="max-w-2xl border-l-2 border-brand-400 bg-surface-secondary rounded-r-lg p-6 md:p-8">
         <p className="font-mono text-sm text-brand-500 tracking-wide">
           Dr. Carlos M. Peredo
         </p>
@@ -20,11 +20,11 @@ export default function Home() {
         </p>
       </section>
 
-      <section className="mt-16">
+      <section className="mt-10">
         <p className="font-mono text-sm text-text-tertiary uppercase tracking-wider">
           Explore
         </p>
-        <div className="mt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-6">
           {sectionCards.map((card) => (
             <SectionCard key={card.href} {...card} />
           ))}
