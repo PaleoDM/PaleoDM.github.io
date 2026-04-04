@@ -42,7 +42,7 @@ Personal website for Dr. Carlos Mauricio Peredo
 - `public/CNAME` ensures custom domain survives deployment
 
 ## Current Phase
-Phase 5: Portfolio Section (next up)
+Phase 7: Polish & Deploy (next up)
 
 ## Phase Status
 | Phase | Name | Status |
@@ -52,8 +52,8 @@ Phase 5: Portfolio Section (next up)
 | 2 | Layout Shell | Complete |
 | 3 | Home Page | Complete |
 | 4 | Publications Page | Complete |
-| 5 | Portfolio Section | Pending |
-| 6 | Remaining Sections | Pending |
+| 5 | Portfolio Section | Complete |
+| 6 | Remaining Sections | Complete |
 | 7 | Polish & Deploy | Pending |
 
 ## Sections

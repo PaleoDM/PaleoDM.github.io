@@ -48,18 +48,18 @@
 
 **Success**: All 23 publications render with working DOI links and Altmetric badges.
 
-## Phase 5: Portfolio Section
-- [ ] Portfolio grid page (4 case study cards with thumbnails)
-- [ ] Comp Vision sub-page (ResNet18 skull identifier, challenge/solution format)
-- [ ] A/B Testing sub-page (Code.org prototype testing, stats)
-- [ ] RELIC Bot sub-page (Discord bot, tabletop gaming)
-- [ ] Geospatial sub-page (PaleoDB fossil prediction, GIS)
+## Phase 5: Portfolio Section — COMPLETE
+- [x] Portfolio grid page (4 case study cards with thumbnails)
+- [x] FA Dashboard sub-page (React advisor dashboard, challenge/solution format)
+- [x] Blueprint Analyzer sub-page (computer vision floor plan analysis)
+- [x] Design App sub-page (Code.org prototype testing)
+- [x] Data Lake sub-page (ETL pipeline and advisor dashboard)
 
-**Success**: All 4 case studies render with images, expandable sections, and full content.
+**Success**: All 4 case studies render with images, tech tags, and full content.
 
-## Phase 6: Remaining Sections
-- [ ] Storytelling page (Critters & Catastrophes PDF download)
-- [ ] Martial Arts / TCD page (lineage chart, Code of Ethics, dojo info)
+## Phase 6: Remaining Sections — COMPLETE
+- [x] Storytelling page (Critters & Catastrophes + Arlowe's Culinary Quest PDF downloads)
+- [x] Martial Arts / TCD page (lineage chart, Code of Ethics, dojo info)
 
 **Success**: Both pages render with all content and downloadable assets.
 
