@@ -16,6 +16,18 @@ export interface Publication {
 
 export const publications: Publication[] = [
   {
+    id: 27,
+    type: "article",
+    authors: "Strauch, R.J., A.J. Werth, C.M. Peredo, and M.D. Uhen",
+    year: 2026,
+    title: "Toothed whales independently evolve specialized suction feeding without converging on skull shape",
+    journal: "PeerJ",
+    volume: "14",
+    pages: "e21119",
+    doi: "10.7717/peerj.21119",
+    tags: ["cetacean", "odontocete", "feeding", "morphology"],
+  },
+  {
     id: 26,
     type: "whitepaper",
     authors: "Peredo, C.M.",
