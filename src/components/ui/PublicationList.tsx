@@ -18,6 +18,7 @@ function boldAuthorName(authors: string): React.ReactNode {
 }
 
 const typeLabels: Record<string, string> = {
+  article: "Peer-Reviewed",
   report: "Institutional Report",
   whitepaper: "White Paper",
 };
@@ -36,7 +37,7 @@ function PublicationCard({ pub }: { pub: Publication }) {
         <div className="min-w-0 flex-1">
           <div className="flex items-center gap-2">
             <p className="font-mono text-xs text-text-tertiary">{pub.year}</p>
-            {pub.type !== "article" && typeLabels[pub.type] && (
+            {typeLabels[pub.type] && (
               <span className="font-mono text-xs text-brand-500 bg-brand-50 border border-brand-200 rounded px-1.5 py-0.5">
                 {typeLabels[pub.type]}
               </span>

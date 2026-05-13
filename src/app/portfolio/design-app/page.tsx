@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Albert Portal — Dr. Carlos M. Peredo",
+  title: "Remodeling Project Portal — Dr. Carlos M. Peredo",
   description:
     "Full-stack construction management portal with AI-powered design visualization and client-facing dashboards.",
 };
@@ -22,7 +22,7 @@ export default function DesignAppPage() {
           Case Study
         </p>
         <h1 className="mt-3 text-3xl md:text-4xl font-semibold text-text-primary leading-tight">
-          Albert Portal
+          Remodeling Project Portal
         </h1>
         <p className="mt-4 text-text-secondary leading-relaxed">
           A full-stack construction management portal with AI-powered design

@@ -19,13 +19,13 @@ export const portfolioItems: PortfolioItem[] = [
     tags: ["OpenCV", "GPT-5.2", "FastAPI", "React"],
   },
   {
-    title: "Albert Portal",
+    title: "Remodeling Project Portal",
     tagline: "Dual-portal construction management platform with AI design visualization and PIN-gated client dashboards.",
     href: "/portfolio/design-app",
     tags: ["React 19", "Azure AI Foundry", "Express 5", "Full-Stack"],
   },
   {
-    title: "Legacy Financial Datalake",
+    title: "Financial Advisor Datalake",
     tagline: "Nightly ETL pipeline and live advisor dashboard turning two disconnected financial platforms into actionable client intelligence.",
     href: "/portfolio/data-lake",
     tags: ["Azure", "Python", "React", "Data Engineering"],

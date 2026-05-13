@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Legacy Financial Datalake — Dr. Carlos M. Peredo",
+  title: "Financial Advisor Datalake — Dr. Carlos M. Peredo",
   description:
     "Nightly ETL pipeline and live advisor dashboard turning two disconnected financial platforms into actionable client intelligence.",
 };
@@ -22,7 +22,7 @@ export default function DataLakePage() {
           Case Study
         </p>
         <h1 className="mt-3 text-3xl md:text-4xl font-semibold text-text-primary leading-tight">
-          Legacy Financial Datalake
+          Financial Advisor Datalake
         </h1>
         <p className="mt-4 text-text-secondary leading-relaxed">
           A nightly ETL pipeline and live advisor dashboard turning two
@@ -60,7 +60,7 @@ export default function DataLakePage() {
           The Challenge
         </h2>
         <p className="mt-4 text-text-secondary leading-relaxed">
-          Legacy Financial Advisors ran their practice across two systems —
+          The firm ran their practice across two systems —
           Wealthbox (CRM) and Black Diamond (portfolio management) — with no
           unified view of client engagement or portfolio risk. Advisors
           couldn&apos;t answer basic questions: Which clients haven&apos;t been

@@ -16,6 +16,18 @@ export interface Publication {
 
 export const publications: Publication[] = [
   {
+    id: 28,
+    type: "article",
+    authors: "Buchholtz, E.A., F.G. Marx, C.M. Peredo, and M.D. Uhen",
+    year: 2026,
+    title: "Sternal anatomy reflects feeding style in mysticete cetaceans",
+    journal: "Journal of Mammalian Evolution",
+    volume: "33",
+    pages: "20",
+    doi: "10.1007/s10914-026-09816-4",
+    tags: ["cetacean", "mysticete", "morphology", "feeding"],
+  },
+  {
     id: 27,
     type: "article",
     authors: "Strauch, R.J., A.J. Werth, C.M. Peredo, and M.D. Uhen",
