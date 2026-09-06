@@ -49,7 +49,7 @@ export default function PublicationsPage() {
           <a
             href="/assets/documents/peredo-cv.pdf"
             download
-            title="Heads up: I stopped maintaining this CV in 2024. My publication list on this page stays current."
+            title="Heads up: I stopped maintaining this CV in 2024. Publication metrics stay updated regularly."
             className="inline-flex items-center gap-2 rounded-lg border border-surface-border bg-surface-secondary px-5 py-2.5 font-mono text-sm text-text-secondary transition-colors hover:border-brand-400 hover:text-brand-600"
           >
             <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -58,7 +58,7 @@ export default function PublicationsPage() {
             Download CV
           </a>
           <p className="font-mono text-xs text-text-tertiary">
-            CV last updated 2024. Publications above stay current.
+            CV last updated 2024. Publication metrics stay updated regularly.
           </p>
         </div>
       </section>
