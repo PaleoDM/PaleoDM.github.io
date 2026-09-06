@@ -68,5 +68,4 @@ Phase 7: Polish & Deploy (next up)
 
 ## Footer Links
 - Google Scholar: https://scholar.google.com/citations?user=IZRnfS0AAAAJ&hl=en
-- Project Inquiries: https://docs.google.com/forms/d/e/1FAIpQLSdxbH03CpaKTalBdizuW275xrO2VZ2KYM1sM98b5XTWRyxAhg/viewform?usp=header
-- Request Reference: https://docs.google.com/forms/d/e/1FAIpQLSeFxmpSRlH2oiHq5F6XDiFLehMtkKtf9iciqByCT1w2DkPVjA/viewform?usp=header
+- LinkedIn: https://linkedin.com/in/carlos-mauricio-peredo

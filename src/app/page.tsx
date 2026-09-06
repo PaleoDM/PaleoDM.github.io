@@ -6,17 +6,19 @@ export default function Home() {
     <div className="max-w-6xl mx-auto px-6 py-10 md:py-16">
       <section className="max-w-2xl border-l-2 border-brand-400 bg-surface-secondary rounded-r-lg p-6 md:p-8">
         <p className="font-mono text-sm text-brand-500 tracking-wide">
-          Dr. Carlos M. Peredo
+          Dr. Carlos Mauricio Peredo
         </p>
         <h1 className="mt-3 text-3xl md:text-4xl font-semibold text-text-primary leading-tight">
-          AI Product &amp; Research Leader
+          Lead AI &amp; Data Architect
         </h1>
         <p className="mt-6 text-text-secondary leading-relaxed">
-          AI product developer. Senior data scientist. Paleobiologist. I tackle
-          complex problems across large institutions and even larger scales, from
-          production ML pipelines to the fossil record. I help companies build
-          and maintain their data and intelligence layers. In my free time, I
-          tell stories and teach martial arts.
+          I architect and ship production AI systems, with a specialty in regulated
+          industries. Products include enterprise data platforms, RAG-powered knowledge
+          systems, and predictive business forecasting, as well as voice AI agents and
+          the governance tooling that lets teams adopt AI safely. I help companies build
+          and maintain their data and intelligence layers, generating over $350,000
+          annually in signed AI engagements. In my free time, I&apos;m an active
+          paleontology researcher, storyteller, and martial arts instructor.
         </p>
       </section>
 

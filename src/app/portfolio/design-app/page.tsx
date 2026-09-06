@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Remodeling Project Portal — Dr. Carlos M. Peredo",
+  title: "Remodeling Project Portal — Dr. Carlos Mauricio Peredo",
   description:
     "Full-stack construction management portal with AI-powered design visualization and client-facing dashboards.",
 };

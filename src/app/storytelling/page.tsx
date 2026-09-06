@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Storytelling — Dr. Carlos M. Peredo",
+  title: "Storytelling — Dr. Carlos Mauricio Peredo",
   description:
     "Tabletop storytelling games for classroom education. Download Critters & Catastrophes and Arlowe's Culinary Quest for free.",
 };

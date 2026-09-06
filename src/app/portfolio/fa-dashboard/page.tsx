@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Financial Aid & Retention Dashboard — Dr. Carlos M. Peredo",
+  title: "Financial Aid & Retention Dashboard — Dr. Carlos Mauricio Peredo",
   description:
     "Interactive tool quantifying WGU scholarship impact across 931K students and 12 demographic dimensions.",
 };

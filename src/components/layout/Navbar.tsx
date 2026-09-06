@@ -17,7 +17,7 @@ export function Navbar() {
           href="/"
           className="text-xl font-semibold text-text-primary hover:text-brand-500 transition-colors"
         >
-          Dr. Carlos M. Peredo
+          Dr. Carlos Mauricio Peredo
         </Link>
 
         <ul className="hidden md:flex gap-8">

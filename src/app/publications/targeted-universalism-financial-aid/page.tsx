@@ -1,6 +1,6 @@
 export const metadata = {
   title:
-    "Targeted Universalism and the Distribution of Financial Aid — Dr. Carlos M. Peredo",
+    "Targeted Universalism and the Distribution of Financial Aid — Dr. Carlos Mauricio Peredo",
   description:
     "Evidence from a large online university on how financial aid distribution fails students at both the beginning and end of the student lifecycle.",
 };

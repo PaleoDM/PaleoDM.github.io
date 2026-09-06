@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Financial Advisor Datalake — Dr. Carlos M. Peredo",
+  title: "Financial Advisor Datalake — Dr. Carlos Mauricio Peredo",
   description:
     "Nightly ETL pipeline and live advisor dashboard turning two disconnected financial platforms into actionable client intelligence.",
 };

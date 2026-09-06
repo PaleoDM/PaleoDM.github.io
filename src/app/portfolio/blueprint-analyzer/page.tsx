@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Blueprint Analyzer — Dr. Carlos M. Peredo",
+  title: "Blueprint Analyzer — Dr. Carlos Mauricio Peredo",
   description:
     "AI-powered blueprint analysis that turns architectural drawings into demolition takeoff data in seconds.",
 };

@@ -3,7 +3,7 @@ import { publications, articleCount, reportCount, whitepaperCount } from "@/data
 import { PublicationList } from "@/components/ui/PublicationList";
 
 export const metadata = {
-  title: "Publications — Dr. Carlos M. Peredo",
+  title: "Publications — Dr. Carlos Mauricio Peredo",
   description:
     "Peer-reviewed publications in paleobiology, marine mammal evolution, and machine learning.",
 };

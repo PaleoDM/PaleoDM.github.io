@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export const metadata = {
-  title: "Tai Chuan Do — Dr. Carlos M. Peredo",
+  title: "Tai Chuan Do — Dr. Carlos Mauricio Peredo",
   description:
     "Sensei Carlos Mauricio Peredo — 4th degree black belt in Tai Chuan Do Karate. Lineage, Code of Ethics, and dojo information.",
 };

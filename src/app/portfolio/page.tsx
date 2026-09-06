@@ -2,7 +2,7 @@ import Link from "next/link";
 import { portfolioItems } from "@/data/portfolioItems";
 
 export const metadata = {
-  title: "Portfolio — Dr. Carlos M. Peredo",
+  title: "Portfolio — Dr. Carlos Mauricio Peredo",
   description:
     "AI products, data infrastructure, and analytics case studies.",
 };

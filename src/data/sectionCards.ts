@@ -8,7 +8,7 @@ export interface SectionCardData {
 export const sectionCards: SectionCardData[] = [
   {
     title: "Portfolio",
-    description: "AI products. ML infrastructure. A/B testing.",
+    description: "AI products. Computer vision. Data engineering.",
     cta: "See what I've built.",
     href: "/portfolio",
   },
