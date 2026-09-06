@@ -33,7 +33,7 @@ export default function PublicationsPage() {
       <section className="mt-8 flex flex-wrap gap-3">
         <a
           href="/assets/documents/peredo-resume.pdf"
-          download
+          download="Peredo, Carlos Mauricio Resume.pdf"
           className="inline-flex items-center gap-2 rounded-lg border border-brand-400 bg-brand-50 px-5 py-2.5 font-mono text-sm text-brand-600 transition-colors hover:bg-brand-100"
         >
           <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
