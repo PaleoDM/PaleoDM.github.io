@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import type { Publication } from "@/data/publications";
+import type { Publication, PublicationType } from "@/data/publications";
 import { publicationYears } from "@/data/publications";
 
 function boldAuthorName(authors: string): React.ReactNode {
@@ -83,13 +83,17 @@ function PublicationCard({ pub }: { pub: Publication }) {
   );
 }
 
+const typeFilterOptions: PublicationType[] = ["article", "report", "whitepaper"];
+
 export function PublicationList({ publications }: { publications: Publication[] }) {
   const [yearFilter, setYearFilter] = useState<number | null>(null);
+  const [typeFilter, setTypeFilter] = useState<PublicationType | null>(null);
   const [search, setSearch] = useState("");
 
   const filtered = publications
     .filter((pub) => {
       if (yearFilter && pub.year !== yearFilter) return false;
+      if (typeFilter && pub.type !== typeFilter) return false;
       if (search) {
         const q = search.toLowerCase();
         return (
@@ -126,6 +130,34 @@ export function PublicationList({ publications }: { publications: Publication[] 
             </option>
           ))}
         </select>
+      </div>
+
+      <div className="mt-3 flex flex-wrap gap-2">
+        <button
+          type="button"
+          onClick={() => setTypeFilter(null)}
+          className={`font-mono text-xs rounded-full border px-3 py-1 transition-colors ${
+            typeFilter === null
+              ? "border-brand-400 bg-brand-500 text-white"
+              : "border-surface-border text-text-secondary hover:border-brand-400 hover:text-brand-600"
+          }`}
+        >
+          All Types
+        </button>
+        {typeFilterOptions.map((type) => (
+          <button
+            key={type}
+            type="button"
+            onClick={() => setTypeFilter(type)}
+            className={`font-mono text-xs rounded-full border px-3 py-1 transition-colors ${
+              typeFilter === type
+                ? "border-brand-400 bg-brand-500 text-white"
+                : "border-surface-border text-text-secondary hover:border-brand-400 hover:text-brand-600"
+            }`}
+          >
+            {typeLabels[type]}
+          </button>
+        ))}
       </div>
 
       <p className="mt-4 font-mono text-xs text-text-tertiary">
