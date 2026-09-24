@@ -16,6 +16,18 @@ export interface Publication {
 
 export const publications: Publication[] = [
   {
+    id: 29,
+    type: "article",
+    authors: "Huff, K., R.J. Strauch, and C.M. Peredo",
+    year: 2026,
+    title: "Dental complexity and crown relief document occlusal wear along the tooth row in West Indian manatees",
+    journal: "Marine Mammal Science",
+    volume: "42(4)",
+    pages: "e70282",
+    doi: "10.1111/mms.70282",
+    tags: ["sirenian", "dental", "morphology", "feeding"],
+  },
+  {
     id: 28,
     type: "article",
     authors: "Buchholtz, E.A., F.G. Marx, C.M. Peredo, and M.D. Uhen",

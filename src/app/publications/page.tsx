@@ -5,7 +5,7 @@ import { PublicationList } from "@/components/ui/PublicationList";
 export const metadata = {
   title: "Publications — Dr. Carlos Mauricio Peredo",
   description:
-    "25+ peer-reviewed publications, institutional reports, and white papers spanning evolutionary biology and applied AI/data science.",
+    `${articleCount} peer-reviewed publications, plus institutional reports and white papers spanning evolutionary biology and applied AI/data science.`,
 };
 
 export default function PublicationsPage() {
