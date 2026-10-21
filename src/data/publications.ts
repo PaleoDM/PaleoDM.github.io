@@ -16,6 +16,18 @@ export interface Publication {
 
 export const publications: Publication[] = [
   {
+    id: 30,
+    type: "article",
+    authors: "Pyenson, N.D., M.D. Uhen, and C.M. Peredo",
+    year: 2026,
+    title: "Lateral palatal foramina are ubiquitous across fossil whales and shared with hippos",
+    journal: "Royal Society Open Science",
+    volume: "13(10)",
+    pages: "261050",
+    doi: "10.1098/rsos.261050",
+    tags: ["cetacean", "mysticete", "baleen"],
+  },
+  {
     id: 29,
     type: "article",
     authors: "Huff, K., R.J. Strauch, and C.M. Peredo",
