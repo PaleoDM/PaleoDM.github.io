@@ -16,6 +16,18 @@ export interface Publication {
 
 export const publications: Publication[] = [
   {
+    id: 31,
+    type: "article",
+    authors: "Cain, C.C., C.M. Peredo, D.J. Paquette, S.E. Spikes, L. Luo, and A. Cota",
+    year: 2026,
+    title: "Advancing Equity at Scale: Targeted Universalism and Coordinated Intervention Across the Online Student Lifecycle",
+    journal: "Journal of Postsecondary Student Success",
+    volume: "6(1)",
+    pages: "123-144",
+    doi: "10.33009/fsop_jpss142283",
+    tags: ["student success", "equity", "targeted universalism"],
+  },
+  {
     id: 30,
     type: "article",
     authors: "Pyenson, N.D., M.D. Uhen, and C.M. Peredo",
