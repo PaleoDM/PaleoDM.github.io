@@ -1,26 +1,35 @@
-import Image from "next/image";
+import { HandsDivider } from "@/components/ui/HandsDivider";
+import { SectionCard } from "@/components/ui/SectionCard";
+import {
+  DAN_ORDINALS,
+  DAN_RANKS,
+  credentials,
+  highestDan,
+  martialArtsPaths,
+  type StyleCredential,
+} from "@/data/martialArts";
+
+function currentRank(credential: StyleCredential) {
+  const earned = DAN_RANKS.filter((rank) => credential.ranks[rank]);
+  return earned[earned.length - 1];
+}
 
 export const metadata = {
-  title: "Tai Chuan Do — Dr. Carlos Mauricio Peredo",
+  title: "Martial Arts — Dr. Carlos Mauricio Peredo",
   description:
-    "Sensei Carlos Mauricio Peredo — 4th degree black belt in Tai Chuan Do Karate. Lineage, Code of Ethics, and dojo information.",
+    "Sensei Carlos Mauricio Peredo — 4th Dan black belt in Tai Chuan Do Karate and 3rd Dan black belt in Hakutsuru-Tatsu Shorin-Ryu.",
 };
 
-function HandsDivider() {
-  return (
-    <div className="mt-10 flex flex-col items-center gap-4">
-      <Image
-        src="/assets/images/general/hands.png"
-        alt=""
-        width={80}
-        height={80}
-        unoptimized
-        className="w-16"
-      />
-      <hr className="w-full border-brand-400" />
-    </div>
-  );
-}
+const about = [
+  {
+    label: "Student",
+    text: "Sensei Carlos began training in Tai Chuan Do Karate at nine years old, when he chanced upon free classes offered as a community service. As he transitioned from student to instructor and earned his Sensei Certification, he began actively looking to broaden his range as an instructor. This led to cross training in a number of different styles, and eventually another black belt in Hakutsuru-Tatsu Shorin-Ryu. Sensei Carlos has also cross-trained in a variety of styles, including Kobudo (with expertise in tonfa), Aikido, Tae Kwon Do, and Wing Chun. When not practicing martial arts, he enjoys reading fantasy and playing tabletop roleplaying games.",
+  },
+  {
+    label: "Sensei",
+    text: "In 2017, Sensei Carlos founded a dojo in Columbia, Maryland, teaching Tai Chuan Do and Kobudo. He served as its lead instructor for five years. In 2022, he stepped into the role of supervising instructor, passing day-to-day instruction to a junior sensei. Under his leadership, the school produced three shodans. Sensei Carlos has also served as a senior member and advisor on the Maryland Tai Chuan Do governing board since 2016.",
+  },
+];
 
 export default function MartialArtsPage() {
   return (
@@ -30,15 +39,17 @@ export default function MartialArtsPage() {
           Martial Arts
         </p>
         <h1 className="mt-3 text-3xl md:text-4xl font-semibold text-text-primary leading-tight">
-          Tai Chuan Do Karate
+          Sensei Carlos Mauricio Peredo
         </h1>
         <div className="mt-4 flex flex-wrap gap-2">
-          <span className="font-mono text-xs text-brand-500 bg-brand-50 border border-brand-200 rounded px-2 py-0.5">
-            4th Degree Black Belt — Tai Chuan Do Karate
-          </span>
-          <span className="font-mono text-xs text-brand-500 bg-brand-50 border border-brand-200 rounded px-2 py-0.5">
-            3rd Degree Black Belt — Hakutsuru-Tatsu Shorin-Ryu
-          </span>
+          {credentials.map((credential) => (
+            <span
+              key={credential.style}
+              className="font-mono text-xs text-brand-500 bg-brand-50 border border-brand-200 rounded px-2 py-0.5"
+            >
+              {highestDan(credential)} — {credential.style}
+            </span>
+          ))}
         </div>
       </section>
 
@@ -46,47 +57,17 @@ export default function MartialArtsPage() {
         <h2 className="text-2xl font-semibold text-text-primary">
           About Sensei Carlos
         </h2>
-        <p className="mt-4 text-text-secondary leading-relaxed">
-          Sensei Carlos began his martial arts journey in 1999, training under
-          Master Jeremy Ephraim. In the years since, Sensei Carlos has dedicated
-          himself to perfecting his craft and his mastery of Tai Chuan Do, while
-          training broadly to better understand the origins and inspirations for
-          the style. In 2017, he founded a dojo in Columbia, Maryland. Now living
-          in Cincinnati, Sensei Carlos hopes to continue his martial arts journey
-          by bringing Tai Chuan Do to Ohio.
-        </p>
-      </section>
-
-      <HandsDivider />
-
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold text-text-primary">
-          About Tai Chuan Do
-        </h2>
-        <p className="mt-4 text-text-secondary leading-relaxed">
-          Tai Chuan Do Karate was founded by Grand Master Ken Champ on September
-          30, 1977. Grand Master Champ sought to combine the myriad of different
-          styles into a combat art form that emphasized the grace and discipline
-          of traditional martial styles with the combat utility of the fighting
-          styles emerging in the 1970s.
-        </p>
-      </section>
-
-      <HandsDivider />
-
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold text-text-primary">
-          Sensei Lineage
-        </h2>
-        <div className="mt-4 rounded-lg border border-surface-border overflow-hidden">
-          <Image
-            src="/assets/images/general/tcd-lineage.jpg"
-            alt="Tai Chuan Do sensei lineage chart — from Grand Master Ken Champ through Master Jeremy Ephraim to Sensei Carlos Peredo"
-            width={1200}
-            height={800}
-            unoptimized
-            className="w-full"
-          />
+        <div className="mt-4 space-y-6">
+          {about.map(({ label, text }) => (
+            <div key={label}>
+              <p className="font-mono text-sm text-brand-500 tracking-wide">
+                {label}
+              </p>
+              <p className="mt-2 text-text-secondary leading-relaxed">
+                {text}
+              </p>
+            </div>
+          ))}
         </div>
       </section>
 
@@ -94,48 +75,74 @@ export default function MartialArtsPage() {
 
       <section className="mt-10">
         <h2 className="text-2xl font-semibold text-text-primary">
-          Code of Ethics
+          Rank History
         </h2>
-        <div className="mt-4 space-y-4">
-          <p className="text-text-secondary leading-relaxed">
-            As a martial artist, my fundamental duty is to serve GOD and MANKIND;
-            to safeguard lives and property; to protect the innocent against
-            deception; the weak against oppression or intimidation; the peaceful
-            against violence or disorder; and to respect the Constitutional
-            Rights of all men to liberty, equality, and justice.
-          </p>
-          <p className="text-text-secondary leading-relaxed">
-            I promise, I will keep my private life unsullied as an example to
-            all; maintain courageous calm in the face of danger, scorn, or
-            ridicule; develop self-restraint; and be constantly mindful of the
-            welfare of others, honest in thought and deed in my personal life. I
-            will be exemplary in observing the laws of the land and the
-            regulations of Tai Chuan Do Schools, respectful of the other students
-            and instructors.
-          </p>
-          <p className="text-text-secondary leading-relaxed">
-            As a Tai Chuan Do student/instructor, I shall regard the discharge of
-            my training. Recognizing my responsibilities as a trust; I shall
-            study diligently and pay sincere attention to self-improvement; shall
-            strive to make the best possible application of science to the art of
-            self-defense; and shall strive for effective leadership and personal
-            happiness in the field of human relationships. I shall appreciate the
-            importance and responsibility of my rank and training and hold it to
-            the most honorable high standards.
-          </p>
+        <div className="mt-4 overflow-x-auto rounded-lg border border-surface-border">
+          <table className="w-full text-left text-sm">
+            <thead className="bg-surface-secondary">
+              <tr>
+                <th scope="col" className="px-4 py-3 font-semibold text-text-primary">
+                  Rank
+                </th>
+                {credentials.map((credential) => (
+                  <th key={credential.style} scope="col" className="px-4 py-3 text-center">
+                    <span className="block font-semibold text-text-primary">
+                      {credential.style}
+                    </span>
+                    <span className="block font-mono text-xs font-normal text-text-tertiary">
+                      Since {credential.since}
+                    </span>
+                  </th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {DAN_RANKS.map((rank, i) => (
+                <tr key={rank} className="border-t border-surface-border">
+                  <th scope="row" className="px-4 py-3 font-normal">
+                    <span className="block font-medium text-text-primary">
+                      {rank}
+                    </span>
+                    <span className="block font-mono text-xs text-text-tertiary">
+                      {DAN_ORDINALS[i]} Dan
+                    </span>
+                  </th>
+                  {credentials.map((credential) => {
+                    const year = credential.ranks[rank];
+                    return (
+                      <td
+                        key={credential.style}
+                        className={`px-4 py-3 text-center font-mono ${
+                          rank === currentRank(credential)
+                            ? "font-medium text-brand-500"
+                            : year
+                              ? "text-text-secondary"
+                              : "text-text-tertiary"
+                        }`}
+                      >
+                        {year ?? "—"}
+                      </td>
+                    );
+                  })}
+                </tr>
+              ))}
+            </tbody>
+          </table>
         </div>
       </section>
 
-      <div className="mt-12 mb-4 flex justify-center">
-        <Image
-          src="/assets/images/general/tiger.png"
-          alt="Tiger — Tai Chuan Do symbol"
-          width={120}
-          height={120}
-          unoptimized
-          className="w-20"
-        />
-      </div>
+      <HandsDivider />
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-text-primary">
+          Styles &amp; Training
+        </h2>
+        <div className="mt-4 grid grid-cols-1 md:grid-cols-3 gap-6">
+          {martialArtsPaths.map((path) => (
+            <SectionCard key={path.href} {...path} centered />
+          ))}
+        </div>
+      </section>
     </div>
   );
 }
