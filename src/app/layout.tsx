@@ -20,7 +20,7 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: "Dr. Carlos Mauricio Peredo",
-  description: "AI Product Developer, researcher, and builder.",
+  description: "Lead AI & Data Architect, researcher, and builder.",
 };
 
 export default function RootLayout({
